@@ -3249,7 +3249,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Snorlax-Mega",
 		baseSpecies: "Snorlax",
 		forme: "Mega",
-		types: ["Normal"],
+		types: ["Normal", "Grass"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 160, atk: 135, def: 95, spa: 75, spd: 135, spe: 40},
 		abilities: {0: "Thick Fat"},
