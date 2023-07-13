@@ -53,24 +53,13 @@ export const Formats: FormatList = [
 		"PUBL", "PU", "NFE", "LC", "Moody", "Huge Power", "Baton Pass", "Smoliv", "Ledyba"]
 	},
 
+
 	{
-		name: "[Gen 9] Do NOT Use Pineco",
-
-		mod: 'gen9deluxe',
-		ruleset: ['DNU Clause', 'Standard', 'Evasion Clause', 'Z-Move Clause', 'Terastal Clause'],
-		banlist: ["AG", "Uber", "OUD", "OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU",
-		"PUBL", "PU", "NFE", "LC", "Moody", "Huge Power", "Baton Pass", "Smoliv", "Ledyba"],
-		unbanlist: ['Pineco'],
-	},
-
-/*	{
 		name: "[Gen 9] Do Not Use Suspect",
-
 		mod: 'gen9deluxe',
-		ruleset: ['Standard', 'Evasion Clause', 'Z-Move Clause', 'Terastal Clause'],
-		banlist: ["AG", "Uber", "OUD", "OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU",
-		"PUBL", "PU", "NFE", "LC", "Moody", "Huge Power", "Baton Pass"]
-	},*/
+		ruleset: ['[Gen 9] Do Not Use'],
+		unbanlist: ['Slugma'],
+	},
 
 	{
 		name: "[Gen 9] CU",
@@ -120,8 +109,15 @@ export const Formats: FormatList = [
 
 		mod: 'gen9deluxe',
 		ruleset: ['[Gen 9] Do Not Use'],
-		banlist: ["Cleffa", "Zubat", "Happiny", "Togepi", "Wooper", "Wooper-Paldea", "Unown", "Swinub", "Zigzagoon-Galar", "Lotad",
-			"Makuhita", "Gulpin", "Luvdisc", "Starly", "Shinx", "Noibat", "Wimpod", "Nickit", "Rolycoly", "Dreepy", "Tarountula", "Nymble", "Charcadet"]
+		banlist: ['Do Not Use']
+	},
+
+	{
+		name: "[Gen 9] DNRU",
+
+		mod: 'gen9deluxe',
+		ruleset: ['[Gen 9] DNUU'],
+		banlist: ['DNUU']
 	},
 
 	{
@@ -169,6 +165,19 @@ export const Formats: FormatList = [
 			ruleset: ['Standard', 'Terastal Clause'],
 			banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass',
 					'Quick Draw', 'Quick Claw', 'Focus Band', 'Shed Tail'],
+	},
+	{
+		name: "[Gen 9] Rebalanced National Dex",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3710848/">National Dex Metagame Discussion</a>`,
+		],
+
+		mod: 'gen9rebalanced',
+		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Sleep Clause Mod'],
+		banlist: [
+			'ND Uber', 'ND AG', 'Assist', 'Baton Pass', 'Shed Tail', 'Arena Trap', 'Shadow Tag', 'Quick Draw',
+			'King\'s Rock', 'Quick Claw', 'Focus Band'
+		],
 	},
 	{
 		name: "[Gen 9] Rebalanced Draft",

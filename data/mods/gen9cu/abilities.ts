@@ -234,12 +234,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				let newMove = this.dex.deepClone(oldMove);
 				newMove.basePower = basePower;
 
-				this.queue.insertAtPriority(this.queue.resolveAction({
+				let action = this.queue.resolveAction({
 					choice: 'move',
 					pokemon: pokemon,
 					move: newMove,
 					targetLoc: pokemon.getLocOf(Dex.moves.get(pokemon.moveSlots[0].move).target === 'self' ? pokemon : this.prng.sample(pokemon.side.foe.active)), 
-				})[0] as MoveAction, this.midTurn ? 3 : 1);			
+				})[0] as MoveAction;		
+				
+				action.priority = 3;
+				action.move.priority = 3;
 			}
 		},
 		onModifyCritRatio(this, relayVar, source, target, move) {
@@ -259,7 +262,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				const move = this.dex.moves.get(moveSlot.move);
 				types.add(move.type);
 			}
-			if (types.size === 4 && move.crit) {
+			if (types.size === 4 && target.getMoveHitData(move).crit) {
 				return this.chainModify(1.5);
 			}
 		},

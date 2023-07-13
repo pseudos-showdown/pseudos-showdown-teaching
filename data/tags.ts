@@ -200,6 +200,18 @@ export const Tags: {[id: string]: TagData} = {
 		name: "AG",
 		speciesFilter: species => species.tier === 'AG',
 	},
+	donotuse: {
+		name: "Do Not Use",
+		speciesFilter: species => species.tier === 'Do Not Use',
+	},
+	dnuu: {
+		name: "DNUU",
+		speciesFilter: species => species.tier === 'DNUU',
+	},
+	dnru: {
+		name: "DNRU",
+		speciesFilter: species => species.tier === 'DNRU',
+	},
 
 	// Doubles tiers
 	// -------------
