@@ -5764,7 +5764,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
 	},
 	fluttermane: {
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "DUber",
 		natDexTier: "OU",
 	},
@@ -5796,7 +5796,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "UU",
 	},
 	ironhands: {
-		tier: "UU",
+		tier: "UUBL",
 		doublesTier: "DOU",
 		natDexTier: "RU",
 	},
