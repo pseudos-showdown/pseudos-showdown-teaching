@@ -78453,7 +78453,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			healbell: ["9M"],
 			afteryou: ["7T"],
-			agility: [/*"9M", */"8M"],
+			//agility: ["9M", "8M"],
 			aurasphere: ["9M", "9L66", "8M", "8L66", "7L81"],
 			aurorabeam: ["9L36", "8L36", "7L17"],
 			batonpass: ["9M", "8M"],
