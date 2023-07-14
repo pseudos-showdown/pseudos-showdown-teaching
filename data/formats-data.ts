@@ -1997,7 +1997,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	vigoroth: {
-		tier: "NFE",
+		tier: "DNUU",
 	},
 	slaking: {
 		tier: "(PU)",
@@ -2035,7 +2035,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
 	},
 	makuhita: {
-		tier: "LC",
+		tier: "Do Not Use",
 	},
 	hariyama: {
 		tier: "RUBL",
