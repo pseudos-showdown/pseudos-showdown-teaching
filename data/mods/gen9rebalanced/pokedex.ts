@@ -1966,7 +1966,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Slowbro",
 		forme: "Mega",
 		types: ["Water", "Psychic"],
-		baseStats: {hp: 95, atk: 75, def: 180, spa: 130, spd: 80, spe: 30},
+		baseStats: {hp: 105, atk: 75, def: 180, spa: 130, spd: 80, spe: 30},
 		abilities: {0: "Shell Armor"},
 		heightm: 2,
 		weightkg: 120,
@@ -3229,7 +3229,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	snorlax: {
 		num: 143,
 		name: "Snorlax",
-		types: ["Normal", "Grass"],
+		types: ["Normal"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 160, atk: 110, def: 65, spa: 65, spd: 110, spe: 30},
 		abilities: {0: "Immunity", 1: "Thick Fat", H: "Gluttony"},
