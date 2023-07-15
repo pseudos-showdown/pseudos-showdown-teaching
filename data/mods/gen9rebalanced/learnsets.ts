@@ -44188,7 +44188,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			trick: ["9M", "8M", "7T", "6T", "5T", "4T"],
 			zenheadbutt: ["9M", "8M", "8L6", "7T", "7L32", "6T", "6L29", "5T", "5L62", "5S2", "5S3", "4T", "4L62", "4S0"],
 			bulkup: ["9M"],
-			recover: ["9M"],
 		},
 		eventData: [
 			{generation: 4, level: 62, nature: "Brave", moves: ["bulletpunch", "meteormash", "hammerarm", "zenheadbutt"], pokeball: "cherishball"},
@@ -81488,10 +81487,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			willowisp: ["8M"],
 			wrap: ["8L1"],
 			xscissor: ["8M"],
-			morningsun: ["8M"],
 			uturn: ["8M"],
-			swordsdance: ["8M"],
-			firstimpression: ["8M"],
 		},
 	},
 	clobbopus: {
