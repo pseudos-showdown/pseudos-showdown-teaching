@@ -18430,7 +18430,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Chien-Pao",
 		types: ["Dark", "Ice"],
 		gender: "N",
-		baseStats: {hp: 80, atk: 120, def: 80, spa: 90, spd: 65, spe: 135},
+		baseStats: {hp: 85, atk: 115, def: 80, spa: 90, spd: 65, spe: 135},
 		abilities: {0: "Sword of Ruin"},
 		heightm: 1.9,
 		weightkg: 152.2,
