@@ -851,7 +851,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			yawn: ["9M", "8E", "7E", "6E", "5E", "4E", "3E"],
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
 			icespinner: ["9M"],
-			recover: ["9M"],
 		},
 		eventData: [
 			{generation: 3, level: 10, gender: "M", moves: ["tackle", "tailwhip", "bubble", "withdraw"], pokeball: "pokeball"},
@@ -950,7 +949,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			withdraw: ["8L1", "8V", "7L10", "7V", "6L10", "5L10", "4L10", "3L10"],
 			workup: ["8M", "7M"],
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
-			recover: ["9M"],
 		},
 	},
 	blastoise: {
@@ -1060,7 +1058,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			withdraw: ["9M", "8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			workup: ["9M", "8M", "7M"],
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
-			recover: ["9M"],
 		},
 		eventData: [
 			{generation: 3, level: 70, moves: ["protect", "raindance", "skullbash", "hydropump"], pokeball: "pokeball"},

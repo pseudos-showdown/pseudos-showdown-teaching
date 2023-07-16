@@ -544,6 +544,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 281,
 		gen: 4,
 	},
+	blastoisinite: {
+		name: "Blastoisinite",
+		spritenum: 583,
+		megaStone: "Blastoise-Mega",
+		megaEvolves: "Blastoise",
+		itemUser: ["Blastoise"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 661,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	blastoisinitex: {
 		name: "Blastoisinite-X",
 		spritenum: 583,
@@ -554,7 +568,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		num: 661,
+		num: 6033,
 		gen: 6,
 		isNonstandard: "Past",
 	},
@@ -2201,6 +2215,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	gengarite: {
+		name: "Gengarite",
+		spritenum: 588,
+		megaStone: "Gengar-Mega",
+		megaEvolves: "Gengar",
+		itemUser: ["Gengar"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 656,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	gengaritex: {
 		name: "Gengarite-X",
 		spritenum: 588,
@@ -2211,7 +2239,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		num: 656,
+		num: 6032,
 		gen: 6,
 		isNonstandard: "Past",
 	},
@@ -6961,6 +6989,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1123,
 		gen: 8,
 	},
+	venusaurite: {
+		name: "Venusaurite",
+		spritenum: 608,
+		megaStone: "Venusaur-Mega",
+		megaEvolves: "Venusaur",
+		itemUser: ["Venusaur"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 659,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	venusauritex: {
 		name: "Venusaurite-X",
 		spritenum: 608,
@@ -6971,7 +7013,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		num: 659,
+		num: 6033,
 		gen: 6,
 		isNonstandard: "Past",
 	},

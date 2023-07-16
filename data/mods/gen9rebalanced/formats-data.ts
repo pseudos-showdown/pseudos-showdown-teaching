@@ -23,6 +23,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "RU",
 		natDexTier: "RU",
 	},
+	venusaurmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Illegal",
+	},
 	venusaurmegax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -78,6 +83,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	blastoise: {
 		tier: "NU",
 		natDexTier: "RU",
+	},
+	blastoisemega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Illegal",
 	},
 	blastoisemegax: {
 		isNonstandard: "Past",
@@ -751,6 +761,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "UU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
+	},
+	gengarmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+		natDexTier: "Illegal",
 	},
 	gengarmegax: {
 		isNonstandard: "Past",
@@ -3887,9 +3902,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "Illegal",
 	},
 	greninjaash: {
-		tier: "OU",
+		tier: "Illegal",
 		doublesTier: "DOU",
-		natDexTier: "OU",
+		natDexTier: "Illegal",
 	},
 	// greninjaash: {
 	// 	isNonstandard: "Past",
@@ -4998,7 +5013,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	drednawmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "Uber",
 	},
 	drednawgmax: {
 		isNonstandard: "Past",
