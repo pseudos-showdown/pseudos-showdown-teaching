@@ -5760,7 +5760,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Sableye",
 		forme: "Mega",
 		types: ["Dark", "Ghost"],
-		baseStats: {hp: 65, atk: 105, def: 135, spa: 95, spd: 115, spe: 45},
+		baseStats: {hp: 65, atk: 105, def: 135, spa: 95, spd: 115, spe: 25},
 		abilities: {0: "Magic Bounce"},
 		heightm: 0.5,
 		weightkg: 161,
