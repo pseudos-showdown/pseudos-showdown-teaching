@@ -45287,7 +45287,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			mimic: ["3T"],
 			mirrorcoat: ["7L73", "6L73", "5L97", "4L97", "4S6", "3L50"],
 			mudslap: ["4T", "3T"],
-			nastyplot: ["5S9"],
 			naturalgift: ["4M"],
 			nightmare: ["3T"],
 			nightshade: ["7L7", "6L7", "5L9", "4L9", "4S8", "3L5"],
@@ -77963,6 +77962,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M"],
 			vitalthrow: ["8L15", "7L19"],
 			workup: ["8M", "7M"],
+			spikes: ["8M"],
 		},
 		eventData: [
 			{generation: 7, level: 65, moves: ["counter", "hammerarm", "lunge", "dynamicpunch"]},
@@ -88741,7 +88741,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			voltswitch: ["9M"],
 			whirlwind: ["9L14"],
 			wildcharge: ["9M", "9L56"],
-			plasmafists: ["8M"],
+			plasmafists: ["9M"],
 		},
 		eventData: [
 			{generation: 9, level: 52, shiny: 1, moves: ["forcepalm", "seismictoss", "charge", "slam"]},
