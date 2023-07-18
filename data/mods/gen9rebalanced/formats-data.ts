@@ -26,7 +26,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	venusaurmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "Illegal",
+		natDexTier: "AG",
 	},
 	venusaurmegax: {
 		isNonstandard: "Past",
@@ -56,7 +56,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	charizardmegax: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "UU",
 	},
 	charizardmegay: {
 		isNonstandard: "Past",
@@ -66,7 +66,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	charizardmegaz: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "OU",
+		natDexTier: "UU",
 	},
 	charizardgmax: {
 		isNonstandard: "Past",
@@ -87,7 +87,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	blastoisemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "Illegal",
+		natDexTier: "AG",
 	},
 	blastoisemegax: {
 		isNonstandard: "Past",
@@ -765,7 +765,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	gengarmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "Illegal",
+		natDexTier: "AG",
 	},
 	gengarmegax: {
 		isNonstandard: "Past",
@@ -2040,7 +2040,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	mawilemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "OU",
 	},
 	aron: {
 		isNonstandard: "Past",
@@ -2073,7 +2073,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	medichammega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "UUBL",
+		natDexTier: "OU",
 	},
 	electrike: {
 		isNonstandard: "Past",

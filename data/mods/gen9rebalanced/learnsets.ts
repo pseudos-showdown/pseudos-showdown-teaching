@@ -21673,7 +21673,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			whirlwind: ["7V"],
 			wildcharge: ["9M", "8M", "7M", "6M", "5M"],
 			zapcannon: ["9L70", "8L70", "7L99", "7V", "6L1", "5L92"],
-			spikes: ["8M"],
 		},
 		eventData: [
 			{generation: 3, level: 50, shiny: 1, moves: ["thunderwave", "agility", "detect", "drillpeck"]},
@@ -21754,7 +21753,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderouskick: ["9L45", "8L45", "8S0", "8S1"],
 			trailblaze: ["9M"],
 			uturn: ["9M", "8M"],
-			spikes: ["8M"],
 		},
 		eventData: [
 			{generation: 8, level: 70, moves: ["thunderouskick", "drillpeck", "reversal", "focusenergy"]},
@@ -62867,7 +62865,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			honeclaws: ["6M", "5M"],
 			irondefense: ["9M", "9L45", "8M", "8L45", "7T", "7L46", "6T", "6L46", "5T", "5L46"],
 			ironhead: ["9M", "9L55", "8M", "8L55", "7T", "7L54", "6T", "6L54", "5T", "5L54"],
-			knockoff: ["7T", "6T", "5T"],
 			laserfocus: ["8L50"],
 			lashout: ["8T"],
 			leer: ["9L1", "8L1", "7L6", "6L6", "5L6"],
@@ -62958,7 +62955,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hyperbeam: ["9M", "8M", "7M", "6M", "5M"],
 			irondefense: ["9M", "9L45", "8M", "8L45", "7T", "7L46", "6T", "6L46", "5T", "5L46"],
 			ironhead: ["9M", "9L57", "8M", "8L57", "7T", "7L1", "6T", "6L1", "5T", "5L57"],
-			knockoff: ["7T", "6T", "5T"],
 			laserfocus: ["8L50", "7T"],
 			lashout: ["8T"],
 			leer: ["9L1", "8L1", "7L1", "6L1", "5L1"],
