@@ -24945,6 +24945,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			workup: ["8M", "7M", "5M"],
 			yawn: ["8L1"],
 			zenheadbutt: ["8M", "7T", "6T", "5T", "4T"],
+			moonblast: ["8M"],
 		},
 		eventData: [
 			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["extremespeed", "aurasphere", "airslash", "present"]},
@@ -28114,6 +28115,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			venoshock: ["9M", "7M", "6M", "5M"],
 			xscissor: ["9M", "7M", "7L40", "6M", "6L40", "5M", "5L45", "4M", "4L42"],
 			spikes: ["9M"],
+			powerwhip: ["8M"],
 		},
 	},
 	snubbull: {
@@ -38525,6 +38527,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			venoshock: ["8M", "7M", "6M", "5M"],
 			weatherball: ["8M", "7L1", "6L1", "5L1", "4L1"],
 			worryseed: ["8L1", "7T", "6T", "5T", "4T"],
+			focusblast: ["8M"],
 		},
 	},
 	gulpin: {
@@ -45127,7 +45130,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			gigaimpact: ["8M", "7M", "6M", "5M", "4M"],
 			grassknot: ["8M", "7M", "6M", "5M", "4M"],
 			gravity: ["8L35", "7T", "7L45", "6T", "6L45", "5T", "5L45", "4T", "4L45"],
-			happyhour: ["6S20"],
 			headbutt: ["4T"],
 			healingwish: ["8L56", "7L50", "7S22", "6L50", "6S17", "5L50", "5S13", "5S15", "5S16", "4L50"],
 			heartstamp: ["6S19"],
@@ -45151,7 +45153,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			meteormash: ["8L49", "8S23", "5S13", "5S14", "5S15"],
 			metronome: ["8M", "3T"],
 			mimic: ["3T"],
-			moonblast: ["6S17"],
+			moonblast: ["8M", "6S17"],
 			mudslap: ["4T", "3T"],
 			naturalgift: ["4M"],
 			nightmare: ["3T"],
@@ -45220,7 +45222,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 6, level: 10, shiny: true, moves: ["wish", "swift", "healingwish", "moonblast"], pokeball: "cherishball"},
 			{generation: 6, level: 15, shiny: true, moves: ["wish", "confusion", "helpinghand", "return"], pokeball: "cherishball"},
 			{generation: 6, level: 100, moves: ["heartstamp", "playrough", "wish", "cosmicpower"], pokeball: "cherishball"},
-			{generation: 6, level: 25, shiny: true, moves: ["wish", "confusion", "swift", "happyhour"], pokeball: "cherishball"},
+			{generation: 6, level: 25, shiny: true, moves: ["wish", "confusion", "swift", "wish"], pokeball: "cherishball"},
 			{generation: 6, level: 100, moves: ["wish", "confusion", "rest"], pokeball: "cherishball"},
 			{generation: 7, level: 15, moves: ["swift", "wish", "healingwish", "rest"], pokeball: "cherishball"},
 			{generation: 8, level: 70, nature: "Timid", moves: ["meteormash", "psychic", "rest", "wish"], pokeball: "cherishball"},
@@ -49454,6 +49456,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M", "5M", "4M"],
 			twister: ["4T"],
 			whirlpool: ["8M", "4M"],
+			nightslash: ["8M"],
 		},
 		eventData: [
 			{generation: 5, level: 100, gender: "M", moves: ["outrage", "earthquake", "swordsdance", "stoneedge"], pokeball: "cherishball"},
@@ -49679,6 +49682,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["9M", "7T", "6T", "4M", "4S0"],
 			workup: ["9L16", "8M", "8L1", "7M", "7L42", "5M"],
 			zenheadbutt: ["9M", "8M", "7T", "6T", "5T", "4T"],
+			machpunch: ["8M"],
 		},
 		eventData: [
 			{generation: 4, level: 50, gender: "M", nature: "Modest", abilities: ["steadfast"], moves: ["aurasphere", "darkpulse", "dragonpulse", "waterpulse"], pokeball: "cherishball"},
@@ -56658,6 +56662,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["9M"],
 			wavecrash: ["9L44"],
 			poltergeist: ["8M"],
+			scald: ["8M"],
 		},
 	},
 	basculegionf: {
@@ -56714,6 +56719,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["9M"],
 			wavecrash: ["9L44"],
 			poltergeist: ["8M"],
+			scald: ["8M"],
 		},
 	},
 	sandile: {
@@ -73982,6 +73988,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["8E", "7T", "7E"],
 			watersport: ["7E"],
 			whirlpool: ["8M", "7E"],
+			recover: ["8M"],
 		},
 	},
 	mareanie: {
