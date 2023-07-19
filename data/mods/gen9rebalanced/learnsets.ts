@@ -26246,7 +26246,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			swagger: ["7M", "7V", "6M", "5M", "4M", "3T"],
 			swift: ["7L22", "7V", "6L22", "5L22", "4T", "4L22", "3T", "3L38"],
 			switcheroo: ["7E", "6E", "5E"],
-			tailslap: ["7E"],
+			tailslap: ["9M", "7E"],
 			tailwhip: ["7L1", "7V", "6L1", "5L1", "4L1", "3L1", "3S0"],
 			taunt: ["7M", "6M", "5M", "4M", "3M"],
 			thief: ["7M", "7V", "6M", "5M", "4M", "3M"],

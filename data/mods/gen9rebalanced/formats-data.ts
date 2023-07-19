@@ -1373,7 +1373,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "LC",
 	},
 	lanturn: {
-		tier: "UU",
+		tier: "RU",
 		natDexTier: "RU",
 	},
 	togepi: {
@@ -1565,7 +1565,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	overqwil: {
 //		isNonstandard: "Unobtainable",
-		tier: "UU",
+		tier: "RU",
 		natDexTier: "RU",
 	},
 	shuckle: {
@@ -3612,7 +3612,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "NFE",
 	},
 	chandelure: {
-		tier: "NU",
+		tier: "NUBL",
 		natDexTier: "RU",
 	},
 	axew: {
@@ -3891,7 +3891,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	greninja: {
-		tier: "RU",
+		tier: "RUBL",
 		doublesTier: "DOU",
 		natDexTier: "OU",
 	},
@@ -4149,7 +4149,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "OU",
 	},
 	klefki: {
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "DUU",
 		natDexTier: "RU",
 	},
@@ -4158,7 +4158,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "LC",
 	},
 	trevenant: {
-		tier: "PU",
+		tier: "PUBL",
 		natDexTier: "RU",
 	},
 	pumpkaboo: {
@@ -4256,7 +4256,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	hoopaunbound: {
 //		isNonstandard: "Unobtainable",
-		tier: "RU",
+		tier: "RUBL",
 		natDexTier: "RU",
 	},
 	volcanion: {
@@ -4276,12 +4276,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	decidueye: {
 //		isNonstandard: "Unobtainable",
-		tier: "PU",
+		tier: "RU",
 		natDexTier: "RU",
 	},
 	decidueyehisui: {
 //		isNonstandard: "Unobtainable",
-		tier: "RU",
+		tier: "PU",
 		natDexTier: "RU",
 	},
 	litten: {
@@ -4428,7 +4428,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	mudsdale: {
-		tier: "RU",
+		tier: "UU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
@@ -5333,7 +5333,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	drakloak: {
-		tier: "PU",
+		tier: "NFE",
 	},
 	dragapult: {
 		tier: "OU",
@@ -5487,7 +5487,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	quaquaval: {
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "DUU",
 		natDexTier: "UU",
 	},
@@ -5540,7 +5540,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	espathra: {
-		tier: "UU",
+		tier: "RUBL",
 		doublesTier: "DUU",
 		natDexTier: "OU",
 	},

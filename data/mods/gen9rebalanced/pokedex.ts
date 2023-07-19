@@ -7758,7 +7758,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 424,
 		name: "Ambipom",
 		types: ["Normal"],
-		baseStats: {hp: 75, atk: 130, def: 66, spa: 60, spd: 66, spe: 115},
+		baseStats: {hp: 75, atk: 120, def: 66, spa: 60, spd: 66, spe: 115},
 		abilities: {0: "Technician", 1: "Pickup", H: "Skill Link"},
 		heightm: 1.2,
 		weightkg: 20.3,
