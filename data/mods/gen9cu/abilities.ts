@@ -199,7 +199,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onBasePowerPriority: 8,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['punch']) {
-				return this.chainModify(1.2);
+				return this.chainModify(1.3);
 			}
 		},
 		name: "Comet Fist",
