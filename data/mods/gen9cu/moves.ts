@@ -552,7 +552,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	//what the fuck
 	//
 	enragingvenom: {
-		num: 8023
+		num: 8023,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -572,11 +572,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Poison",
-		zMove: {boost: {def: 1}}
+		zMove: {boost: {def: 1}},
 		contestType: "Cool",
-	}
+	},
 	befuddlingvenom: {
-		num: 8024
+		num: 8024,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -596,11 +596,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Poison",
-		zMove: {boost: {def: 1}}
+		zMove: {boost: {def: 1}},
 		contestType: "Cool",
-	}
+	},
 	exhaustingvenom: {
-		num: 8025
+		num: 8025,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -623,9 +623,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		secondary: null,
 		target: "normal",
 		type: "Poison",
-		zMove: {boost: {def: 1}}
+		zMove: {boost: {def: 1}},
 		contestType: "Cool",
-	}
+	},
 
 
 	"10000000voltthunderbolt": {
