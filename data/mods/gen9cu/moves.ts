@@ -563,7 +563,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		volatileStatus: 'taunt',
 		onTryHit(target, source) {
 			if (!target.status) {
-				source.setStatus('tox', target);
+				target.setStatus('tox', source);
 			}
 		},
 		boosts: {
@@ -587,7 +587,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		volatileStatus: 'encore',
 		onTryHit(target, source) {
 			if (!target.status) {
-				source.setStatus('tox', target);
+				target.setStatus('tox', source);
 			}
 		},
 		boosts: {
@@ -610,7 +610,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		onTryHit(target, source) {
 			if (!target.status) {
-				source.setStatus('tox', target);
+				target.setStatus('tox', source);
 			}
 		},
 		boosts: {
