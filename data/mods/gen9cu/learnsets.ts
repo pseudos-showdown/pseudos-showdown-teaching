@@ -94440,9 +94440,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			teleport: ["9T"],
 			wish: ["9T"],
 			takedown: ["9T"],
-			terablast: ["9T"],
-			endure: ["9T"],
-			
+			terablast: ["9T"],			
 		},
 	},
 	pallaidon: {
@@ -96055,9 +96053,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			sludgewave: ["9T"],
 			venoshock: ["9T"],
 			confuseray: ["9T"],
-			pounce: ["9T"],
-			uturn: ["9T"],
-			
+			pounce: ["9T"],			
 		},
 	},
 	rollision: {
