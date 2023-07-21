@@ -198,7 +198,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "self",
-		type: "Grass",
+		type: "Ice",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cool",
 	},
@@ -445,10 +445,18 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1, nonsky: 1, contact: 1},
 		multihit: 5,
 		basePowerCallback(pokemon, target, move) {
-			return 5 * move.hit;
+			if (move.hit <= 2)
+				return move.hit * 5;
+			else if (move.hit === 3)
+				return 20;
+			else if (move.hit === 4)
+				return 35;
+			return 55;
 		},
 		onModifyMove(move, pokemon) {
-			if (pokemon.hp <= pokemon.maxhp / 2 && move.hit === 5) move.critRatio = 5;
+			if (pokemon.hp <= pokemon.maxhp / 2 && move.hit === 5) {
+				move.critRatio = 5;
+			}
 		},
 		secondary: null,
 		target: "normal",
