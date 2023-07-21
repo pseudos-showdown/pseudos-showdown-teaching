@@ -96853,7 +96853,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
             thief: ["9T"],
             focusenergy: ["9T"],
             darkpulse: ["9T"],
-            roost: ["9T"]
+            roost: ["9T"],
 				endure: ["9T"],
 			facade: ["9T"],
 			protect: ["9T"],
@@ -96881,7 +96881,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
             megapunch: ["9T"],
             doubleedge: ["9T"],
             bounce: ["9T"],
-            fakeout: ["9T"]
+            fakeout: ["9T"],
 				endure: ["9T"],
 			facade: ["9T"],
 			protect: ["9T"],
