@@ -131,7 +131,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		// physical moves give the user -1 defense but set up a layer of spikes
 		onDamagingHit(damage, target, source, move) {
 			if (move.category === 'Physical') {
-				this.boost({def: -1}, source);
+				this.boost({def: -1}, target);
 				source.side.addSideCondition('spikes');
 			}
 		},
