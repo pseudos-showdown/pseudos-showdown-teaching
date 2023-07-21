@@ -10369,7 +10369,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.3,
 		weightkg: 1,
 		color: "Green",
-		evos: ["Duosion"],
+		evos: ["Duosion", "Solzilla"],
 		eggGroups: ["Amorphous"],
 	},
 	duosion: {
@@ -19640,6 +19640,9 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		abilities: {0: "Regenerator", 1: "Marvel Scale", H: "Gooey"},
 		heightm: 9.7,
 		weightkg: 1,
+		prevo: "Solosis",
+		evoType: "useItem",
+		evoItem: "Shiny Stone",
 		color: "Green",
 		eggGroups: ["Amorphous"],
 	},
