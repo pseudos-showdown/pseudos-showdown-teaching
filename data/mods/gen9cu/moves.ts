@@ -198,7 +198,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		},
 		secondary: null,
 		target: "self",
-		type: "Grass",
+		type: "Ice",
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cool",
 	},
@@ -445,10 +445,18 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, mirror: 1, nonsky: 1, contact: 1},
 		multihit: 5,
 		basePowerCallback(pokemon, target, move) {
-			return 5 * move.hit;
+			if (move.hit <= 2)
+				return move.hit * 5;
+			else if (move.hit === 3)
+				return 20;
+			else if (move.hit === 4)
+				return 35;
+			return 55;
 		},
 		onModifyMove(move, pokemon) {
-			if (pokemon.hp <= pokemon.maxhp / 2 && move.hit === 5) move.critRatio = 5;
+			if (pokemon.hp <= pokemon.maxhp / 2 && move.hit === 5) {
+				move.critRatio = 5;
+			}
 		},
 		secondary: null,
 		target: "normal",
@@ -540,7 +548,85 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {basePower: 180},
 		contestType: "Cool",
 	},
-	
+	//serket signatures
+	//what the fuck
+	//
+	enragingvenom: {
+		num: 8023
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Enraging Venom",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1},
+		volatileStatus: 'taunt',
+		onTryHit(target, source) {
+			if (!target.status) {
+				source.setStatus('tox', target);
+			}
+		},
+		boosts: {
+			atk: 1,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		zMove: {boost: {def: 1}}
+		contestType: "Cool",
+	}
+	befuddlingvenom: {
+		num: 8024
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Befuddling Venom",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1},
+		volatileStatus: 'encore',
+		onTryHit(target, source) {
+			if (!target.status) {
+				source.setStatus('tox', target);
+			}
+		},
+		boosts: {
+			spa: 1,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		zMove: {boost: {def: 1}}
+		contestType: "Cool",
+	}
+	exhaustingvenom: {
+		num: 8025
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Exhausting Venom",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mirror: 1},
+		onTryHit(target, source) {
+			if (!target.status) {
+				source.setStatus('tox', target);
+			}
+		},
+		boosts: {
+			atk: -1,
+			def: 1,
+			spa: -1,
+			spd: 1,
+			spe: -1,
+		},
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		zMove: {boost: {def: 1}}
+		contestType: "Cool",
+	}
+
 
 	"10000000voltthunderbolt": {
 		num: 719,
@@ -3576,7 +3662,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {mirror: 1},
 		onHitField(target, source) {
 			const sideConditions = [
-				'mist', 'lightscreen', 'reflect', 'spikes', 'safeguard', 'tailwind', 'toxicspikes', 'stealthrock', 'waterpledge', 'firepledge', 'grasspledge', 'stickyweb', 'auroraveil', 'gmaxsteelsurge', 'gmaxcannonade', 'gmaxvinelash', 'gmaxwildfire',
+				'mist', 'lightscreen', 'reflect', 'spikes', 'safeguard', 'tailwind', 'toxicspikes', 'stealthrock', 'waterpledge', 'firepledge', 'grasspledge', 'stickyweb', 'auroraveil', 'gmaxsteelsurge', 'gmaxcannonade', 'gmaxvinelash', 'gmaxwildfire', 'mirrorshards',
 			];
 			let success = false;
 			if (this.gameType === "freeforall") {
@@ -4014,10 +4100,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 			let success = false;
 			if (!target.volatiles['substitute'] || move.infiltrates) success = !!this.boost({evasion: -1});
 			const removeTarget = [
-				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'mirrorshards',
 			];
 			const removeAll = [
-				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'mirrorshards',
 			];
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {
@@ -13029,7 +13115,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 				this.add('-end', pokemon, 'Leech Seed', '[from] move: Mortal Spin', '[of] ' + pokemon);
 			}
-			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'mirrorshards'];
 			for (const condition of sideConditions) {
 				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 					this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Mortal Spin', '[of] ' + pokemon);
@@ -15490,7 +15576,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 				this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', '[of] ' + pokemon);
 			}
-			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'mirrorshards'];
 			for (const condition of sideConditions) {
 				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 					this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Rapid Spin', '[of] ' + pokemon);
@@ -15504,7 +15590,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 				this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', '[of] ' + pokemon);
 			}
-			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'mirrorshards'];
 			for (const condition of sideConditions) {
 				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 					this.add('-sideend', pokemon.side, this.dex.conditions.get(condition).name, '[from] move: Rapid Spin', '[of] ' + pokemon);
@@ -20514,7 +20600,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			for (const active of this.getAllActive()) {
 				if (active.removeVolatile('substitute')) success = true;
 			}
-			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'mirrorshards'];
 			const sides = [pokemon.side, ...pokemon.side.foeSidesWithConditions()];
 			for (const side of sides) {
 				for (const sideCondition of removeAll) {
