@@ -454,7 +454,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Five-Star Strike",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, nonsky: 1, contact: 1},
+		flags: {protect: 1, mirror: 1, nonsky: 1, contact: 1, punch: 1},
 		multihit: 5,
 		basePowerCallback(pokemon, target, move) {
 			if (move.hit <= 2)
