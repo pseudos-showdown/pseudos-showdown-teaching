@@ -210,7 +210,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onAnyFaintPriority: 1,
 		onAnyFaint(target) {
 			let stat = 'def';
-			if (this.runEvent('TryStat', this.effectState.target, 'spd')) stat = 'spd';
+			if (target.getStat('spd', false, false) < target.getStat('def', false, false)) {
+				stat = 'spd';
+			}
 			this.boost({[stat]: 1}, this.effectState.target);
 		},
 		name: "Soulless Heart",
