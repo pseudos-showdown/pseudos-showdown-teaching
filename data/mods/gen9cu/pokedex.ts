@@ -19769,12 +19769,12 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 64,
 		color: "Green",
 		eggGroups: ["Water 3"],
-		otherFormes: ["Aegislash-Allira-Hunter"],
-		formeOrder: ["Aegislash-Allira", "Aegislash-Blade"],
+		otherFormes: ["Aegislash-Allira-Trapper"],
+		formeOrder: ["Aegislash-Allira", "Aegislash-Allira-Trapper"],
 	},
-	aegislashallirahunter: {
+	aegislashalliratrapper: {
 		num: 9040,
-		name: "Aegislash-Allira-Hunter",
+		name: "Aegislash-Allira-Trapper",
 		baseSpecies: "Aegislash-Allira",
 		types: ["Grass", "Water"],
 		baseStats: {hp: 60, atk: 130, def: 60, spa: 110, spd: 60, spe: 80},

@@ -4436,7 +4436,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
 			} else {
 				if (move.category === 'Physical' && move.id !== 'wavestrident') return;
-				const targetForme = (move.id === 'wavestrident' ? 'Aegislash-Allira-Hunter' : 'Aegislash-Allira');
+				const targetForme = (move.id === 'wavestrident' ? 'Aegislash-Allira-Trapper' : 'Aegislash-Allira');
 				if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
 			}
 		},
