@@ -32,6 +32,8 @@ Ratings and how they work:
 
 */
 
+import { Console } from "console";
+
 export const Abilities: {[abilityid: string]: AbilityData} = {
 	/////////
 	// CommunityUsed Abilities
@@ -208,9 +210,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	soullessheart: {
 		onAnyFaintPriority: 1,
-		onAnyFaint(target) {
+		onAnyFaint() {
 			let stat = 'def';
-			if (target.getStat('spd', false, false) < target.getStat('def', false, false)) {
+			if (this.effectState.target.getStat('spd', false, false) < this.effectState.target.getStat('def', false, false)) {
 				stat = 'spd';
 			}
 			this.boost({[stat]: 1}, this.effectState.target);
