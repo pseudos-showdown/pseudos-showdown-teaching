@@ -340,43 +340,55 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Hoplon",
 		pp: 10,
 		priority: 4,
-		flags: {snatch: 1},
+		flags: {noassist: 1, failcopycat: 1},
 		stallingMove: true,
 		volatileStatus: 'hoplon',
-		onTryHit(pokemon) {
+		onPrepareHit(pokemon) {
 			return !!this.queue.willAct() && this.runEvent('StallMove', pokemon);
 		},
 		onHit(pokemon) {
 			pokemon.addVolatile('stall');
 		},
-		onPrepareHit(pokemon) {
-			return this.runEvent('StallMove', pokemon);
-		},
-		onHitField(target, source) {
-			this.add('-anim', source, "Protect", source);
-		},
 		condition: {
 			duration: 1,
 			onStart(target) {
-				this.add('-singleturn', target, 'move: Hoplon');
+				this.add('-singleturn', target, 'move: Protect');
 			},
 			onTryHitPriority: 3,
 			onTryHit(target, source, move) {
-				if (move.category === 'Status' || move.flags['protect'] || move.flags['reflectable']) {
+				if (!move.flags['protect'] || move.category == 'Status') {
+					if (['gmaxoneblow', 'gmaxrapidflow'].includes(move.id)) return;
+					if (move.isZ || move.isMax) target.getMoveHitData(move).zBrokeProtect = true;
 					return;
 				}
-				if (move.flags['contact']) {
-					this.heal(target.baseMaxhp / 8, target);
+				if (move.smartTarget) {
+					move.smartTarget = false;
+				} else {
+					this.add('-activate', target, 'move: Protect');
 				}
-				this.add('-activate', target, 'move: Hoplon');
-				return null;
+				const lockedmove = source.getVolatile('lockedmove');
+				if (lockedmove) {
+					// Outrage counter is reset
+					if (source.volatiles['lockedmove'].duration === 2) {
+						delete source.volatiles['lockedmove'];
+					}
+				}
+				if (this.checkMoveMakesContact(move, source, target)) {
+					this.heal(target.baseMaxhp / 8);
+				}
+				return this.NOT_FAIL;
+			},
+			onHit(target, source, move) {
+				if (move.isZOrMaxPowered && this.checkMoveMakesContact(move, source, target)) {
+					this.heal(target.baseMaxhp / 8);
+				}
 			},
 		},
 		secondary: null,
 		target: "self",
 		type: "Steel",
 		zMove: {boost: {def: 1}},
-		contestType: "Clever",
+		contestType: "Tough",
 	},
 	earthpress: {
 		num: 8015,
