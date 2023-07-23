@@ -240,6 +240,15 @@ export const Formats: FormatList = [
 	},
 
 	{
+		name: "[Gen 9] GPT OU",
+
+		mod: 'gen9gpt',
+		ruleset: ["[Gen 9] GPT OU"],
+		banlist: ['Uber', 'Huge Power', 'Shed Tail', 'Assist', 'King\'s Rock', 'Bright Powder', 'Shadow Tag', 'Last Respects', 'Arena Trap', 'Moody', 'Pure Power', 'Ability Clause = 1']
+
+	},
+
+	{
 		section: "DNU RoA",
 	},
 
