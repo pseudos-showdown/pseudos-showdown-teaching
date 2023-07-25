@@ -392,9 +392,9 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	wigglytuff: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "(DUU)",
-		natDexTier: "UU",
+		natDexTier: "OU",
 	},
 	zubat: {
 		isNonstandard: "Past",
@@ -690,7 +690,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "PU",
 	},
 	magnezone: {
-		tier: "UU",
+		tier: "RU",
 		doublesTier: "(DUU)",
 		natDexTier: "UU",
 	},
@@ -1084,7 +1084,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
 	},
 	taurospaldeaaqua: {
-		tier: "UU",
+		tier: "OU",
 		doublesTier: "DUU",
 		natDexTier: "RU",
 	},
@@ -2573,7 +2573,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "NFE",
 	},
 	empoleon: {
-		tier: "OU",
+		tier: "UU",
 		natDexTier: "RU",
 	},
 	starly: {
@@ -2881,7 +2881,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	azelf: {
 //		isNonstandard: "Unobtainable",
-		tier: "UU",
+		tier: "RU",
 		natDexTier: "RU",
 	},
 	dialga: {
@@ -3051,12 +3051,12 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	samurott: {
 //		isNonstandard: "Unobtainable",
-		tier: "RU",
+		tier: "NU",
 		natDexTier: "RU",
 	},
 	samurotthisui: {
 //		isNonstandard: "Unobtainable",
-		tier: "UU",
+		tier: "OU",
 		natDexTier: "RU",
 	},
 	patrat: {
@@ -4276,7 +4276,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	},
 	decidueye: {
 //		isNonstandard: "Unobtainable",
-		tier: "RU",
+		tier: "NU",
 		natDexTier: "RU",
 	},
 	decidueyehisui: {
@@ -5593,7 +5593,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "LC",
 	},
 	bellibolt: {
-		tier: "RU",
+		tier: "NU",
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},

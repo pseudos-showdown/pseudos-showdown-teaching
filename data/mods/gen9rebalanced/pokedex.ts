@@ -3694,7 +3694,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Ariados",
 		types: ["Bug", "Poison"],
 		baseStats: {hp: 80, atk: 105, def: 95, spa: 60, spd: 70, spe: 80},
-		abilities: {0: "Posion Touch", 1: "Insomnia", H: "Infiltrator"},
+		abilities: {0: "Poison Touch", 1: "Insomnia", H: "Infiltrator"},
 		heightm: 1.1,
 		weightkg: 33.5,
 		color: "Red",
