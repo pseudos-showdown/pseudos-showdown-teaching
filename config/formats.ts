@@ -240,6 +240,15 @@ export const Formats: FormatList = [
 	},
 
 	{
+		name: "[Gen 9] GPT OU",
+
+		mod: 'gen9gpt',
+		ruleset: ["[Gen 9] GPT OU"],
+		banlist: ['Uber', 'Huge Power', 'Shed Tail', 'Assist', 'King\'s Rock', 'Bright Powder', 'Shadow Tag', 'Last Respects', 'Arena Trap', 'Moody', 'Pure Power', 'Ability Clause = 1']
+
+	},
+
+	{
 		section: "DNU RoA",
 	},
 
@@ -395,8 +404,8 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod', 'Z-Move Clause'],
 		banlist: ['ND Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Quick Claw', 'Baton Pass',
-		'Clefable', 'Corviknight', 'Ferrothorn', 'Garchomp', 'Greninja', 'Heatran', 'Kartana', 'Kyurem', 'Landorus-Therian', 'Serperior', 
-		'Tapu Fini', 'Tapu Koko', 'Tapu Lele', 'Toxapex', 'Victini', 'Volcarona', 'Weavile', 'Zapdos', ' Blacephalon', 'Blaziken', 
+		'Clefable', 'Ferrothorn', 'Garchomp', 'Greninja', 'Heatran', 'Kartana', 'Kyurem', 'Landorus-Therian', 'Serperior', 
+		'Tapu Koko', 'Tapu Lele', 'Toxapex', 'Victini', 'Volcarona', 'Weavile', 'Zapdos', ' Blacephalon', 'Blaziken', 
 		'Hawlucha', 'Hoopa-Unbound', 'Latios', 'Manaphy', 'Melmetal', 'Xurkitree', 'Zapdos-Galar', 'Dragonite', 'Urshifu-Rapid-Strike', 'Barraskewda', 'Light Clay',
 	],
 	},
