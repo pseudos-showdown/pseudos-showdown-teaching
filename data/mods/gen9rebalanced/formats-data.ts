@@ -539,7 +539,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "RU",
 	},
 	politoed: {
-		tier: "RU",
+		tier: "RUBL",
 		natDexTier: "RU",
 	},
 	abra: {
@@ -3057,7 +3057,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	samurotthisui: {
 //		isNonstandard: "Unobtainable",
 		tier: "OU",
-		natDexTier: "RU",
+		natDexTier: "UU",
 	},
 	patrat: {
 		isNonstandard: "Past",
