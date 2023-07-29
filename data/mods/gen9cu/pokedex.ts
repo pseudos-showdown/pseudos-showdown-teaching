@@ -19457,7 +19457,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Puppupa",
 		types: ["Bug", "Ghost"],
 		baseStats: {hp: 60, atk: 40, def: 60, spa: 60, spd: 80, spe: 35},
-		abilities: {0: "Limber", 1:"Infiltrator", H: "Prankster"},
+		abilities: {0: "Limber", 1:"Infiltrator", H: "Immunity"},
 		heightm: 0.8,
 		weightkg: 12.4,
 		color: "Purple",
