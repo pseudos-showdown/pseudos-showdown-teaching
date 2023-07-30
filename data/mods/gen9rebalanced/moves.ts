@@ -783,7 +783,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 110,
 		category: "Physical",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Aura Wheel",
 		pp: 10,
 		priority: 0,
