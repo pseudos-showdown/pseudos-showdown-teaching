@@ -74355,7 +74355,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			snatch: ["7T"],
 			snore: ["8M", "7T"],
 			spikecannon: ["7L29"],
-			spite: ["7T"],
+			spite: ["9M", "7T"],
 			substitute: ["9M", "8M", "7M"],
 			surf: ["9M", "8M", "7M"],
 			swagger: ["7M"],
