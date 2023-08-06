@@ -160,6 +160,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	beadsofruin: {
 		name: "Beads of Ruin",
 		shortDesc: "Active Pokemon without this Ability have their Special Defense multiplied by 0.75.",
+		gen9rebalanced: {
+			shortDesc: "Active Pokemon without this Special Defense have their Defense multiplied by 0.8.",
+		},
 
 		start: "  [POKEMON]'s Beads of Ruin weakened the Sp. Def of all surrounding Pokémon!",
 	},
@@ -373,6 +376,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "If this Pokemon is a Mimikyu, the first hit it takes in battle deals 0 neutral damage. Its disguise is then broken and it changes to Busted Form. Confusion damage also breaks the disguise.",
 			shortDesc: "(Mimikyu only) First hit deals 0 damage, breaks disguise.",
 		},
+		gen9rebalanced: {
+			desc: "If this Pokemon is a Mimikyu, the first hit it takes in battle deals 0 neutral damage. Its disguise is then broken and it changes to Busted Form. Confusion damage also breaks the disguise.",
+			shortDesc: "(Mimikyu only) First hit deals 0 damage, breaks disguise.",
+		},
 
 		block: "  Its disguise served it as a decoy!",
 		transform: "[POKEMON]'s disguise was busted!",
@@ -551,6 +558,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen6: {
 			shortDesc: "This Pokemon's Flying-type moves have their priority increased by 1.",
 		},
+		gen9rebalanced: {
+			shortDesc: "This Pokemon's Flying-type moves have their priority increased by 1.",
+		},
 	},
 	galvanize: {
 		name: "Galvanize",
@@ -682,6 +692,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		gen8: {
 			desc: "If this Pokemon is an Eiscue, the first physical hit it takes in battle deals 0 neutral damage. Its ice face is then broken and it changes forme to Noice Face. Eiscue regains its Ice Face forme when Hail begins or when Eiscue switches in while Hail is active. Confusion damage also breaks the ice face.",
 			shortDesc: "If Eiscue, the first physical hit it takes deals 0 damage. This effect is restored in Hail.",
+		},
+		gen9rebalanced: {
+			desc: "If this Pokemon is a Eiscue, the first hit it takes in battle deals 0 neutral damage. Its disguise is then broken and it changes to Busted Form. Confusion damage also breaks the disguise.",
+			shortDesc: "Eiscue First hit deals 0 damage, breaks disguise.",
 		},
 	},
 	icescales: {
@@ -1052,6 +1066,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Mycelium Might",
 		desc: "This Pokemon's Status moves ignore certain Abilities of other Pokemon, and go last among Pokemon using the same or greater priority moves.",
 		shortDesc: "This Pokemon's Status moves go last in their priority bracket and ignore Abilities.",
+		gen9rebalanced: {
+			desc: "This Pokemon's moves and their effects ignore certain Abilities of other Pokemon. The Abilities that can be negated are Aroma Veil, Aura Break, Battle Armor, Big Pecks, Bulletproof, Clear Body, Contrary, Damp, Dazzling, Disguise, Dry Skin, Filter, Flash Fire, Flower Gift, Flower Veil, Fluffy, Friend Guard, Fur Coat, Grass Pelt, Heatproof, Heavy Metal, Hyper Cutter, Ice Face, Ice Scales, Immunity, Inner Focus, Insomnia, Keen Eye, Leaf Guard, Levitate, Light Metal, Lightning Rod, Limber, Magic Bounce, Magma Armor, Marvel Scale, Mirror Armor, Motor Drive, Multiscale, Oblivious, Overcoat, Own Tempo, Pastel Veil, Punk Rock, Queenly Majesty, Sand Veil, Sap Sipper, Shell Armor, Shield Dust, Simple, Snow Cloak, Solid Rock, Soundproof, Sticky Hold, Storm Drain, Sturdy, Suction Cups, Sweet Veil, Tangled Feet, Telepathy, Thick Fat, Unaware, Vital Spirit, Volt Absorb, Water Absorb, Water Bubble, Water Veil, White Smoke, Wonder Guard, and Wonder Skin. This affects every other Pokemon on the field, whether or not it is a target of this Pokemon's move, and whether or not their Ability is beneficial to this Pokemon.",
+			shortDesc: "This Pokemon's moves and their effects ignore the Abilities of other Pokemon.",
+		},
 	},
 	naturalcure: {
 		name: "Natural Cure",
@@ -1414,6 +1432,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	regenerator: {
 		name: "Regenerator",
 		shortDesc: "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
+		gen9rebalanced: {
+			shortDesc: "This Pokemon restores 1/4 of its maximum HP, rounded down, when it switches out.",
+		},
 	},
 	ripen: {
 		name: "Ripen",
@@ -1732,6 +1753,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Steam Engine",
 		desc: "This Pokemon's Speed is raised by 6 stages after it is damaged by a Fire- or Water-type move.",
 		shortDesc: "This Pokemon's Speed is raised by 6 stages after it is damaged by Fire/Water moves.",
+		gen9rebalanced: {
+			desc: "This Pokemon's Speed is raised by 6 stages after it is damaged by a Fire- or Water-type move. Water and Fire immunity.",
+			shortDesc: "This Pokemon's Speed is raised by 6 stages after it is damaged by Fire/Water moves. Water and Fire immunity.",
+		},
 	},
 	steelworker: {
 		name: "Steelworker",
@@ -1836,6 +1861,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	swordofruin: {
 		name: "Sword of Ruin",
 		shortDesc: "Active Pokemon without this Ability have their Defense multiplied by 0.75.",
+		gen9rebalanced: {
+			shortDesc: "Active Pokemon without this Ability have their Defense multiplied by 0.8.",
+		},
 
 		start: "  [POKEMON]'s Sword of Ruin weakened the Defense of all surrounding Pokémon!",
 	},
@@ -1863,6 +1891,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	tabletsofruin: {
 		name: "Tablets of Ruin",
 		shortDesc: "Active Pokemon without this Ability have their Attack multiplied by 0.75.",
+		gen9rebalanced: {
+			shortDesc: "Active Pokemon without this Ability have their Attack multiplied by 0.8.",
+		},
 
 		start: "  [POKEMON]'s Tablets of Ruin weakened the Attack of all surrounding Pokémon!",
 	},
@@ -1909,6 +1940,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Thermal Exchange",
 		desc: "This Pokemon's Attack is raised 1 stage after it is damaged by a Fire-type move. This Pokemon cannot be burned. Gaining this Ability while burned cures it.",
 		shortDesc: "This Pokemon's Attack is raised by 1 when damaged by Fire moves; can't be burned.",
+		gen9rebalanced: {
+			desc: "This Pokemon's Attack is raised 1 stage after it is damaged by a Fire-type move. This Pokemon cannot be burned. Gaining this Ability while burned cures it. Fire Immunity.",
+			shortDesc: "This Pokemon's Attack is raised by 1 when damaged by Fire moves; can't be burned. Fire Immunity.",
+		},
 	},
 	thickfat: {
 		name: "Thick Fat",
@@ -2034,6 +2069,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	vesselofruin: {
 		name: "Vessel of Ruin",
 		shortDesc: "Active Pokemon without this Ability have their Special Attack multiplied by 0.75.",
+		gen9rebalanced: {
+			shortDesc: "Active Pokemon without this Ability have their Special Attack multiplied by 0.8.",
+		},
 
 		start: "  [POKEMON]'s Vessel of Ruin weakened the Sp. Atk of all surrounding Pokémon!",
 	},
@@ -2077,6 +2115,9 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	watercompaction: {
 		name: "Water Compaction",
 		shortDesc: "This Pokemon's Defense is raised 2 stages after it is damaged by a Water-type move.",
+		gen9rebalanced: {
+			shortDesc: "This Pokemon's Defense is raised 2 stages after it is damaged by a Water-type move. Water Immunity",
+		},
 	},
 	waterveil: {
 		name: "Water Veil",

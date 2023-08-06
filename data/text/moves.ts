@@ -500,6 +500,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Bitter Malice",
 		desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
 		shortDesc: "100% chance to lower the target's Attack by 1.",
+		gen9rebalanced: {
+			desc: "Has a 30% chance to frosbite the target.",
+			shortDesc: "30% chance to frostbite the target.",
+		},
 	},
 	blackholeeclipse: {
 		name: "Black Hole Eclipse",
@@ -1357,6 +1361,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Dire Claw",
 		desc: "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
 		shortDesc: "50% chance to sleep, poison, or paralyze target.",
+		gen9rebalanced: {
+			desc: "Has a 50% chance to cause the target to either become poisoned or become paralyzed.",
+			shortDesc: "50% chance to poison or paralyze target.",
+		},
 	},
 	disable: {
 		name: "Disable",
@@ -4982,6 +4990,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Rage Fist",
 		desc: "Power is equal to 50+(X*50), where X is the total number of times the user has been hit by a damaging attack during the battle, even if the user did not lose HP from the attack. X cannot be greater than 6 and does not reset upon switching out or fainting. Each hit of a multi-hit attack is counted, but confusion damage is not counted.",
 		shortDesc: "+50 power for each time user was hit. Max 6 hits.",
+		gen9rebalanced: {
+			desc: "Power is equal to 50+(X*20), where X is the total number of times the user has been hit by a damaging attack during the battle, even if the user did not lose HP from the attack. X cannot be greater than 6 and does not reset upon switching out or fainting. Each hit of a multi-hit attack is counted, but confusion damage is not counted.",
+			shortDesc: "+20 power for each time user was hit. Max 6 hits.",
+		},
 	},
 	ragepowder: {
 		name: "Rage Powder",
@@ -7281,6 +7293,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Wicked Torque",
 		desc: "Has a 10% chance to cause the target to fall asleep.",
 		shortDesc: "10% chance to cause the target to fall asleep.",
+		gen9rebalanced: {
+			desc: "Has a 20% chance to flinch the target.",
+			shortDesc: "20% chance to flinch.",
+		},
 	},
 	wideguard: {
 		name: "Wide Guard",
@@ -7309,10 +7325,14 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "20% chance to paralyze foe(s).",
 	},
 	wildcharge: {
-		name: "Wild Charge",
-		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
-		shortDesc: "Has 1/4 recoil.",
-	},
+        name: "Wild Charge",
+        desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
+        shortDesc: "Has 1/4 recoil.",
+        gen9rebalanced: {
+            desc: "Has a 10% chance to paralyze the target. If the target lost HP, the user takes recoil damage equal to 33% the HP lost by the target, rounded half up, but not less than 1 HP.",
+            shortDesc: "Has 33% recoil. 10% chance to paralyze.",
+        },
+    },
 	willowisp: {
 		name: "Will-O-Wisp",
 		desc: "Burns the target.",
