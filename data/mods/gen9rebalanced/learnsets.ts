@@ -74301,7 +74301,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			banefulbunker: ["9L0", "8L0", "7L1"],
 			bite: ["9L1", "8L1", "7L1"],
 			blizzard: ["9M", "8M", "7M"],
-			block: ["7T"],
+			block: ["9M", "7T"],
 			bodyslam: ["9M"],
 			brine: ["8M"],
 			chillingwater: ["9M"],

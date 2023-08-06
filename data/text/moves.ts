@@ -865,6 +865,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 100% chance to lower the target's Attack by 1 stage.",
 		shortDesc: "100% chance to lower the target's Attack by 1.",
 	},
+	chillingtouch: {
+		name: "Chilling Touch",
+		desc: "Frostbites the target",
+		shortDesc: "Frostbites the target",
+	},
 	chillyreception: {
 		name: "Chilly Reception",
 		desc: "For 5 turns, the weather becomes Snow. The user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members.",
