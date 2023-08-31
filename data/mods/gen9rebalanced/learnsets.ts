@@ -828,6 +828,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			scald: ["9M", "8M", "8V", "7M", "6M", "5M"],
 			secretpower: ["6M", "4M", "3M"],
 			seismictoss: ["9M", "8V", "7V", "3T"],
+			shellsmash: ["9M", "8M"],
 			skullbash: ["9M", "8L36", "8V", "7L31", "7V", "6L31", "5L31", "4L31", "3L40"],
 			sleeptalk: ["9M", "8M", "7M", "7V", "6M", "5T", "4M", "3T"],
 			snore: ["9M", "8M", "7T", "7V", "6T", "5T", "4T", "3T"],
@@ -2026,6 +2027,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	fearow: {
 		learnset: {
+			bravebird: ["8M"],
 			aerialace: ["7M", "7L15", "6M", "6L17", "5M", "5L17", "4M", "4L17", "3M"],
 			agility: ["8V", "7L27", "7V", "6L29", "5L29", "4L29", "3L47"],
 			aircutter: ["4T"],
@@ -4246,6 +4248,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nidoqueen: {
 		learnset: {
+			moonlight: ["9M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			aquatail: ["7T", "6T", "5T", "4T"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -11366,6 +11369,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			zenheadbutt: ["9M", "9L24", "8M", "8L24"],
 			spikes: ["8M"],
 			hiddenpower: ["8M"],
+			toxic: ["8M"],
 		},
 	},
 	slowking: {
@@ -14130,6 +14134,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	electrode: {
 		learnset: {
+			hypervoice: ["9M"],
 			rapidspin: ["9M"],
 			agility: ["9M"],
 			bide: ["7V"],
@@ -14539,6 +14544,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			worryseed: ["9M", "8L1", "7T"],
 			zenheadbutt: ["9M", "8M", "7T"],
 			softboiled: ["9M"],
+			focusblast: ["9M"],
+			calmmind: ["9M"],
 		},
 		eventData: [
 			{generation: 7, level: 50, gender: "M", nature: "Modest", isHidden: true, moves: ["powerswap", "celebrate", "leafstorm", "dracometeor"], pokeball: "cherishball"},
@@ -50528,7 +50535,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			confide: ["7M", "6M"],
 			confuseray: ["9M", "9E", "7E"],
 			dazzlinggleam: ["9M"],
-			defog: ["7T", "4M"],
 			dive: ["6M", "5M", "4T"],
 			doubleteam: ["7M", "6M", "5M", "4M"],
 			endure: ["9M", "4M"],
@@ -50556,7 +50562,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			return: ["7M", "6M", "5M", "4M"],
 			round: ["7M", "6M", "5M"],
 			safeguard: ["9L29", "7M", "7L29", "6M", "6L29", "5M", "5L29", "4M", "4L29"],
-			scald: ["7M", "6M", "5M"],
 			secretpower: ["6M", "4M"],
 			signalbeam: ["7T", "7E", "6T", "6E", "5T", "5E"],
 			silverwind: ["7L49", "6L49", "5L49", "4M", "4L49"],
@@ -50581,6 +50586,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			watergun: ["9L6", "7L6", "6L6", "5L6", "4L6"],
 			waterpulse: ["9M", "9L22", "7T", "7L22", "6T", "6L22", "5L22", "5D", "4M", "4L22"],
 			whirlpool: ["9L38", "7L38", "6L38", "5L38", "4M", "4L38"],
+			moonblast: ["9M"],
+			healbell: ["9M"],
+			scald: ["9M"],
+			roost: ["9M", ],
+			defog: ["9M", ],
 		},
 	},
 	lumineon: {
@@ -50591,7 +50601,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			roost: ["9M", ],
 			defog: ["9M", ],
 			hurricane: ["9M", ],
-			// quiverdance: ["9M", ],
+			quiverdance: ["8M"],
 			acrobatics: ["9M"],
 			agility: ["9M"],
 			aircutter: ["9M", "4T"],
