@@ -1014,7 +1014,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifySpA(atk, attacker, defender, move) {
 			if (move.type === 'Dragon') {
 				this.debug('Dragon\'s Maw boost');
-				return this.chainModify(1.3);
+				return this.chainModify(1.5);
 			}
 		},
 		name: "Dragon's Maw",

@@ -3991,7 +3991,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	doubleshock: {
 		num: 892,
 		accuracy: 100,
-		basePower: 120,
+		basePower: 140,
 		category: "Physical",
 		name: "Double Shock",
 		pp: 5,
@@ -20795,7 +20795,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	volttackle: {
 		num: 344,
 		accuracy: 100,
-		basePower: 140,
+		basePower: 150,
 		category: "Physical",
 		name: "Volt Tackle",
 		pp: 15,
@@ -21605,5 +21605,39 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Electric",
 		contestType: "Cool",
+	},
+	thunderclap: {
+		num: -1000,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Thunderclap",
+		pp: 5,
+		priority: 1,
+		flags: {protect: 1, mirror: 1, sound: 1, bypasssub: 1},
+		onTry(source, target) {
+			const action = this.queue.willMove(target);
+			const move = action?.choice === 'move' ? action.move : null;
+			if (!move || (move.category === 'Status' && move.id !== 'mefirst') || target.volatiles['mustrecharge']) {
+				return false;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		contestType: "Clever",
+	},
+	tachyoncutter: {
+		num: 793,
+		accuracy: true,
+		basePower: 100,
+		category: "Special",
+		name: "Tachyon Cutter",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
 	},
 };

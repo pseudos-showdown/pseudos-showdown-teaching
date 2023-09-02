@@ -8003,20 +8003,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
-	duraludite: {
-		name: "Duraludite",
-		spritenum: 584,
-		megaStone: "Duraludon-Mega",
-		megaEvolves: "Duraludon",
-		itemUser: ["Duraludon"],
-		onTakeItem(item, source) {
-			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
-			return true;
-		},
-		num: 6029,
-		gen: 6,
-		isNonstandard: "Past",
-	},
 	urshifite: {
 		name: "Urshifite",
 		spritenum: 584,

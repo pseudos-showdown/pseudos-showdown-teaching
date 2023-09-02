@@ -6,6 +6,15 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	stormyblossom: { "tier": "Illegal", "doublesTier": "Illegal", "natDexTier": "Illegal"},
 	ironwick: { "tier": "Illegal", "doublesTier": "Illegal", "natDexTier": "Illegal"},
 	/////////// end dnu cap
+
+	///rebal dlc mons
+
+	ragingbolt: { "tier": "Illegal", "doublesTier": "Illegal", "natDexTier": "Illegal"},
+	ironcrown: { "tier": "Illegal", "doublesTier": "Illegal", "natDexTier": "Illegal"},
+	archaludon: { "tier": "Illegal", "doublesTier": "Illegal", "natDexTier": "Illegal"},
+
+	///end rebal dlc mons
+	
 	bulbasaur: {
 		isNonstandard: "Past",
 		tier: "Illegal",

@@ -1,4 +1,49 @@
 export const Pokedex: {[speciesid: string]: SpeciesData} = {
+	///Rebal Versions of DLC Mons///
+
+	archaludon: {
+		num: 1502,
+		name: "Archaludon",
+		types: ["Steel", "Dragon"],
+		baseStats: {hp: 90, atk: 55, def: 145, spa: 145, spd: 70, spe: 55},
+		abilities: {0: "Stamina", 1: "Sturdy", H: "Stalwart"},
+		heightm: 1.8,
+		weightkg: 40,
+		color: "White",
+		evoLevel: 50,
+		eggGroups: ["Mineral", "Dragon"],
+	},
+
+	ragingbolt: {
+		num: 1500,
+		name: "Raging Bolt",
+		types: ["Electric", "Dragon"],
+		gender: "N",
+		baseStats: {hp: 125, atk: 67, def: 111, spa: 125, spd: 105, spe: 57},
+		abilities: {0: "Protosynthesis", H: "Electric Surge"},
+		heightm: 5.2,
+		weightkg: 580,
+		color: "Yellow",
+		tags: ["Paradox"],
+		eggGroups: ["Undiscovered"],
+	},
+
+	ironcrown: {
+		num: 1501,
+		name: "Iron Crown",
+		types: ["Steel", "Psychic"],
+		gender: "N",
+		baseStats: {hp: 90, atk: 88, def: 108, spa: 130, spd: 70, spe: 104},
+		abilities: {0: "Quark Drive", H: "Analytic"},
+		heightm: 1.6,
+		weightkg: 156,
+		color: "Blue",
+		tags: ["Paradox"],
+		eggGroups: ["Undiscovered"],
+	},
+
+	///End///
+	
 	bulbasaur: {
 		num: 1,
 		name: "Bulbasaur",
@@ -16555,24 +16600,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 40,
 		color: "White",
 		eggGroups: ["Mineral", "Dragon"],
-		otherFormes: ["Duraludon-Mega"],
-		formeOrder: ["Duraludon", "Duraludon-Mega"],
+		evos: ["Archaludon"],
 		canGigantamax: "G-Max Depletion",
-	},
-	duraludonmega: {
-		num: 884,
-		name: "Duraludon-Mega",
-		baseSpecies: "Duraludon",
-		forme: "Mega",
-		types: ["Steel", "Dragon"],
-		baseStats: {hp: 70, atk: 85, def: 155, spa: 150, spd: 80, spe: 95},
-		abilities: {0: "Steely Spirit"},
-		heightm: 43,
-		weightkg: 999.9,
-		color: "White",
-		eggGroups: ["Mineral", "Dragon"],
-		changesFrom: "Duraludon",
-		requiredItem: "Duraludite",
 	},
 	duraludongmax: {
 		num: 884,
