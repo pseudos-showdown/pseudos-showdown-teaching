@@ -90350,6 +90350,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ragingbolt: {
 		learnset: {
+			calmmind: ["9M"],
 			toxic: ["9M"],
 			thunderclap: ["9M"],
 			thunderbolt: ["9M"],
