@@ -884,7 +884,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "LC",
 	},
 	hitmonlee: {
-		tier: "PU",
+		tier: "PUBL",
 		natDexTier: "RU",
 	},
 	hitmonchan: {

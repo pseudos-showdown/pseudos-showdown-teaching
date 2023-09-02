@@ -4175,7 +4175,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Dragon Hammer",
 		pp: 15,
 		priority: 0,
