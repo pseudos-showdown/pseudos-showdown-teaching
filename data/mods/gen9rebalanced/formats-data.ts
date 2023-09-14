@@ -2949,11 +2949,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		natDexTier: "Uber",
 	},
 	shaymin: {
-		tier: "OU",
+		tier: "NU",
 		natDexTier: "RU",
 	},
 	shayminsky: {
-		tier: "OU",
+		tier: "Uber",
 		natDexTier: "OU",
 	},
 	arceus: {
