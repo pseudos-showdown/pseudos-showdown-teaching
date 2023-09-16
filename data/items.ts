@@ -1120,26 +1120,12 @@ export const Items: {[itemid: string]: ItemData} = {
 	cornerstonemask: {
 		name: "Cornerstone Mask",
 		spritenum: 758,
-<<<<<<< HEAD
 		forcedForme: "Ogerpon-Cornerstone",
 		itemUser: ["Ogerpon-Cornerstone"],
-=======
-		onBasePowerPriority: 15,
-		onBasePower(basePower, user, target, move) {
-			if (user.baseSpecies.name.startsWith('Ogerpon-Cornerstone')) {
-				return this.chainModify([4915, 4096]);
-			}
-		},
->>>>>>> 0c8643d20e865a9c292cd386d9327920ca8a3aeb
 		onTakeItem(item, source) {
 			if (source.baseSpecies.baseSpecies === 'Ogerpon') return false;
 			return true;
 		},
-<<<<<<< HEAD
-=======
-		forcedForme: "Ogerpon-Cornerstone",
-		itemUser: ["Ogerpon-Cornerstone"],
->>>>>>> 0c8643d20e865a9c292cd386d9327920ca8a3aeb
 		num: 2406,
 		gen: 9,
 	},

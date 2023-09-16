@@ -1636,7 +1636,6 @@ export class RandomTeams {
 		type: string,
 		pokemonToExclude: RandomTeamsTypes.RandomSet[] = [],
 		isMonotype = false,
-<<<<<<< HEAD
 		isDoubles = false,
 		isDNURandbats = false
 	) {
@@ -1659,21 +1658,6 @@ export class RandomTeams {
 				let species = this.dex.species.get(pokemon);
 				if (species.gen > this.gen || exclude.includes(species.id)) continue;
 				if (isMonotype) {
-=======
-		pokemonList: string[]
-	) {
-		const exclude = pokemonToExclude.map(p => toID(p.species));
-		const pokemonPool = [];
-		const baseSpeciesPool = [];
-		const baseSpeciesCount: {[k: string]: number} = {};
-		for (const pokemon of pokemonList) {
-			let species = this.dex.species.get(pokemon);
-			if (exclude.includes(species.id)) continue;
-			if (isMonotype) {
-				if (!species.types.includes(type)) continue;
-				if (typeof species.battleOnly === 'string') {
-					species = this.dex.species.get(species.battleOnly);
->>>>>>> 0c8643d20e865a9c292cd386d9327920ca8a3aeb
 					if (!species.types.includes(type)) continue;
 				}
 			}

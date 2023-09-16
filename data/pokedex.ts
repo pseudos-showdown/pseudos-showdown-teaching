@@ -18801,14 +18801,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 39.8,
 		color: "Green",
 		eggGroups: ["Undiscovered"],
-<<<<<<< HEAD
 		otherFormes: ["Ogerpon-Wellspring", "Ogerpon-Hearthflame", "Ogerpon-Cornerstone"],
 		formeOrder: ["Ogerpon", "Ogerpon-Wellspring", "Ogerpon-Hearthflame", "Ogerpon-Cornerstone"],
-=======
-		otherFormes: ["Ogerpon-Wellspring", "Ogerpon-Hearthflame", "Ogerpon-Cornerstone", "Ogerpon-Teal-Tera", "Ogerpon-Wellspring-Tera", "Ogerpon-Hearthflame-Tera", "Ogerpon-Cornerstone-Tera"],
-		formeOrder: ["Ogerpon", "Ogerpon-Wellspring", "Ogerpon-Hearthflame", "Ogerpon-Cornerstone", "Ogerpon-Teal-Tera", "Ogerpon-Wellspring-Tera", "Ogerpon-Hearthflame-Tera", "Ogerpon-Cornerstone-Tera"],
-		forceTeraType: "Grass",
->>>>>>> 0c8643d20e865a9c292cd386d9327920ca8a3aeb
 	},
 	ogerponwellspring: {
 		num: 1017,
@@ -18825,10 +18819,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Wellspring Mask",
 		changesFrom: "Ogerpon",
-<<<<<<< HEAD
-=======
-		forceTeraType: "Water",
->>>>>>> 0c8643d20e865a9c292cd386d9327920ca8a3aeb
 	},
 	ogerponhearthflame: {
 		num: 1017,
@@ -18845,10 +18835,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Hearthflame Mask",
 		changesFrom: "Ogerpon",
-<<<<<<< HEAD
-=======
-		forceTeraType: "Fire",
->>>>>>> 0c8643d20e865a9c292cd386d9327920ca8a3aeb
 	},
 	ogerponcornerstone: {
 		num: 1017,
@@ -18865,7 +18851,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Cornerstone Mask",
 		changesFrom: "Ogerpon",
-<<<<<<< HEAD
 	},
 	//////////////////////////////////////
 	// DNU CAP
@@ -18927,77 +18912,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	//////////////////////////////////////
 	// END DNU CAP
 	//////////////////////////////////////
-=======
-		forceTeraType: "Rock",
-	},
-	ogerpontealtera: {
-		num: 1017,
-		name: "Ogerpon-Teal-Tera",
-		baseSpecies: "Ogerpon",
-		forme: "Teal-Tera",
-		types: ["Grass"],
-		gender: "F",
-		baseStats: {hp: 80, atk: 120, def: 84, spa: 60, spd: 96, spe: 110},
-		abilities: {0: "Embody Aspect (Teal)"},
-		heightm: 1.2,
-		weightkg: 39.8,
-		color: "Green",
-		eggGroups: ["Undiscovered"],
-		battleOnly: "Ogerpon",
-		forceTeraType: "Grass",
-	},
-	ogerponwellspringtera: {
-		num: 1017,
-		name: "Ogerpon-Wellspring-Tera",
-		baseSpecies: "Ogerpon",
-		forme: "Wellspring-Tera",
-		types: ["Grass", "Water"],
-		gender: "F",
-		baseStats: {hp: 80, atk: 120, def: 84, spa: 60, spd: 96, spe: 110},
-		abilities: {0: "Embody Aspect (Wellspring)"},
-		heightm: 1.2,
-		weightkg: 39.8,
-		color: "Green",
-		eggGroups: ["Undiscovered"],
-		requiredItem: "Wellspring Mask",
-		battleOnly: "Ogerpon-Wellspring",
-		forceTeraType: "Water",
-	},
-	ogerponhearthflametera: {
-		num: 1017,
-		name: "Ogerpon-Hearthflame-Tera",
-		baseSpecies: "Ogerpon",
-		forme: "Hearthflame-Tera",
-		types: ["Grass", "Fire"],
-		gender: "F",
-		baseStats: {hp: 80, atk: 120, def: 84, spa: 60, spd: 96, spe: 110},
-		abilities: {0: "Embody Aspect (Hearthflame)"},
-		heightm: 1.2,
-		weightkg: 39.8,
-		color: "Red",
-		eggGroups: ["Undiscovered"],
-		requiredItem: "Hearthflame Mask",
-		battleOnly: "Ogerpon-Hearthflame",
-		forceTeraType: "Fire",
-	},
-	ogerponcornerstonetera: {
-		num: 1017,
-		name: "Ogerpon-Cornerstone-Tera",
-		baseSpecies: "Ogerpon",
-		forme: "Cornerstone-Tera",
-		types: ["Grass", "Rock"],
-		gender: "F",
-		baseStats: {hp: 80, atk: 120, def: 84, spa: 60, spd: 96, spe: 110},
-		abilities: {0: "Embody Aspect (Cornerstone)"},
-		heightm: 1.2,
-		weightkg: 39.8,
-		color: "Gray",
-		eggGroups: ["Undiscovered"],
-		requiredItem: "Cornerstone Mask",
-		battleOnly: "Ogerpon-Cornerstone",
-		forceTeraType: "Rock",
-	},
->>>>>>> 0c8643d20e865a9c292cd386d9327920ca8a3aeb
 	missingno: {
 		num: 0,
 		name: "MissingNo.",
