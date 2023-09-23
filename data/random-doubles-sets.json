@@ -10,12 +10,12 @@
         ]
     },
     "pikachu": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Support",
                 "movepool": ["Encore", "Fake Out", "Grass Knot", "Protect", "Volt Tackle"],
-                "teraTypes": ["Electric", "Water"]
+                "teraTypes": ["Electric", "Grass"]
             }
         ]
     },
@@ -25,7 +25,7 @@
             {
                 "role": "Doubles Support",
                 "movepool": ["Encore", "Fake Out", "Grass Knot", "Nuzzle", "Thunderbolt"],
-                "teraTypes": ["Electric", "Water"]
+                "teraTypes": ["Electric", "Grass"]
             },
             {
                 "role": "Tera Blast user",
@@ -35,7 +35,7 @@
         ]
     },
     "raichualola": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -50,7 +50,7 @@
         ]
     },
     "wigglytuff": {
-        "level": 90,
+        "level": 91,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -60,7 +60,7 @@
         ]
     },
     "venomoth": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -70,7 +70,7 @@
         ]
     },
     "dugtrio": {
-        "level": 84,
+        "level": 85,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -110,11 +110,11 @@
         ]
     },
     "golduck": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
-                "movepool": ["Encore", "Grass Knot", "Hydro Pump", "Ice Beam", "Icy Wind", "Psyshock"],
+                "movepool": ["Encore", "Grass Knot", "Hydro Pump", "Ice Beam", "Icy Wind", "Protect", "Psyshock"],
                 "teraTypes": ["Grass", "Water"]
             },
             {
@@ -140,12 +140,12 @@
         ]
     },
     "arcanine": {
-        "level": 84,
+        "level": 82,
         "sets": [
             {
-                "role": "Doubles Support",
-                "movepool": ["Extreme Speed", "Flare Blitz", "Howl", "Morning Sun", "Snarl", "Will-O-Wisp"],
-                "teraTypes": ["Fire", "Steel", "Water"]
+                "role": "Doubles Bulky Attacker",
+                "movepool": ["Close Combat", "Extreme Speed", "Flare Blitz", "Howl", "Morning Sun", "Snarl", "Will-O-Wisp"],
+                "teraTypes": ["Fighting", "Normal", "Steel", "Water"]
             }
         ]
     },
@@ -160,7 +160,7 @@
         ]
     },
     "slowbro": {
-        "level": 84,
+        "level": 86,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -175,7 +175,7 @@
         ]
     },
     "slowbrogalar": {
-        "level": 84,
+        "level": 85,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -189,13 +189,13 @@
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Gunk Shot", "Haze", "Helping Hand", "Ice Punch", "Poison Gas", "Poison Jab", "Rock Tomb", "Shadow Sneak", "Toxic Spikes"],
+                "movepool": ["Drain Punch", "Gunk Shot", "Haze", "Helping Hand", "Ice Punch", "Poison Gas", "Poison Jab", "Rock Tomb", "Shadow Sneak", "Toxic Spikes"],
                 "teraTypes": ["Dark"]
             }
         ]
     },
     "mukalola": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -205,7 +205,7 @@
         ]
     },
     "cloyster": {
-        "level": 80,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -215,11 +215,11 @@
         ]
     },
     "gengar": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
-                "role": "Doubles Support",
-                "movepool": ["Clear Smog", "Encore", "Protect", "Shadow Ball", "Sludge Bomb"],
+                "role": "Offensive Protect",
+                "movepool": ["Encore", "Protect", "Shadow Ball", "Sludge Bomb"],
                 "teraTypes": ["Ghost"]
             },
             {
@@ -230,7 +230,7 @@
         ]
     },
     "hypno": {
-        "level": 90,
+        "level": 93,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -246,6 +246,11 @@
                 "role": "Doubles Support",
                 "movepool": ["Foul Play", "Helping Hand", "Light Screen", "Taunt", "Thunder Wave", "Thunderbolt", "Volt Switch"],
                 "teraTypes": ["Dark", "Flying"]
+            },
+            {
+                "role": "Tera Blast user",
+                "movepool": ["Protect", "Tera Blast", "Thunderbolt", "Volt Switch"],
+                "teraTypes": ["Ice"]
             }
         ]
     },
@@ -265,7 +270,7 @@
         ]
     },
     "tauros": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -275,7 +280,7 @@
         ]
     },
     "taurospaldeacombat": {
-        "level": 84,
+        "level": 83,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -285,7 +290,7 @@
         ]
     },
     "taurospaldeablaze": {
-        "level": 84,
+        "level": 83,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -300,7 +305,7 @@
         ]
     },
     "taurospaldeaaqua": {
-        "level": 84,
+        "level": 83,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -335,7 +340,7 @@
         ]
     },
     "ditto": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -345,7 +350,7 @@
         ]
     },
     "vaporeon": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -359,7 +364,7 @@
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Fake Tears", "Helping Hand", "Shadow Ball", "Thunder Wave", "Thunderbolt"],
+                "movepool": ["Fake Tears", "Helping Hand", "Protect", "Shadow Ball", "Thunder Wave", "Thunderbolt"],
                 "teraTypes": ["Flying", "Ghost"]
             },
             {
@@ -370,7 +375,7 @@
         ]
     },
     "flareon": {
-        "level": 86,
+        "level": 88,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -380,17 +385,17 @@
         ]
     },
     "articuno": {
-        "level": 88,
+        "level": 86,
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Freeze-Dry", "Hurricane", "Ice Beam", "Protect", "Roost", "Tailwind"],
+                "movepool": ["Brave Bird", "Freeze-Dry", "Ice Beam", "Protect", "Roost", "Tailwind"],
                 "teraTypes": ["Ground", "Steel"]
             }
         ]
     },
     "articunogalar": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -400,7 +405,7 @@
         ]
     },
     "zapdos": {
-        "level": 82,
+        "level": 80,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -415,7 +420,7 @@
         ]
     },
     "zapdosgalar": {
-        "level": 82,
+        "level": 81,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -425,7 +430,7 @@
         ]
     },
     "moltres": {
-        "level": 84,
+        "level": 82,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -435,7 +440,7 @@
         ]
     },
     "moltresgalar": {
-        "level": 82,
+        "level": 77,
         "sets": [
             {
                 "role": "Doubles Bulky Setup",
@@ -470,7 +475,7 @@
         ]
     },
     "mew": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -485,7 +490,7 @@
         ]
     },
     "typhlosion": {
-        "level": 88,
+        "level": 82,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -495,7 +500,7 @@
         ]
     },
     "typhlosionhisui": {
-        "level": 86,
+        "level": 81,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -505,7 +510,7 @@
         ]
     },
     "ampharos": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -525,7 +530,7 @@
         ]
     },
     "sudowoodo": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -560,7 +565,7 @@
         ]
     },
     "quagsire": {
-        "level": 84,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -570,17 +575,17 @@
         ]
     },
     "clodsire": {
-        "level": 80,
+        "level": 85,
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Gunk Shot", "Helping Hand", "Recover", "Stomping Tantrum", "Toxic", "Toxic Spikes"],
+                "movepool": ["Gunk Shot", "Helping Hand", "Recover", "Stealth Rock", "Stomping Tantrum", "Toxic Spikes"],
                 "teraTypes": ["Flying", "Ground", "Steel"]
             }
         ]
     },
     "espeon": {
-        "level": 86,
+        "level": 85,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -600,7 +605,7 @@
         ]
     },
     "murkrow": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -610,7 +615,7 @@
         ]
     },
     "slowking": {
-        "level": 84,
+        "level": 86,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -625,7 +630,7 @@
         ]
     },
     "slowkinggalar": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -635,17 +640,22 @@
         ]
     },
     "forretress": {
-        "level": 84,
+        "level": 88,
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Helping Hand", "Iron Head", "Rapid Spin", "Stealth Rock", "Toxic Spikes"],
+                "movepool": ["Iron Head", "Rapid Spin", "Thunder Wave", "Toxic Spikes", "Volt Switch"],
                 "teraTypes": ["Fire", "Water"]
+            },
+            {
+                "role": "Choice Item user",
+                "movepool": ["Body Press", "Bug Bite", "Explosion", "Iron Head"],
+                "teraTypes": ["Fighting", "Fire"]
             }
         ]
     },
     "qwilfish": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -654,8 +664,18 @@
             }
         ]
     },
+    "qwilfishhisui": {
+        "level": 85,
+        "sets": [
+            {
+                "role": "Doubles Bulky Attacker",
+                "movepool": ["Crunch", "Gunk Shot", "Icy Wind", "Toxic Spikes"],
+                "teraTypes": ["Flying"]
+            }
+        ]
+    },
     "overqwil": {
-        "level": 84,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -669,7 +689,7 @@
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Bullet Punch", "Close Combat", "Defog", "Feint", "Tailwind", "U-turn"],
+                "movepool": ["Bullet Punch", "Close Combat", "Defog", "Tailwind", "U-turn"],
                 "teraTypes": ["Fire", "Water"]
             },
             {
@@ -718,11 +738,6 @@
         "level": 86,
         "sets": [
             {
-                "role": "Doubles Bulky Attacker",
-                "movepool": ["High Horsepower", "Ice Spinner", "Knock Off", "Rapid Spin", "Stealth Rock"],
-                "teraTypes": ["Dark"]
-            },
-            {
                 "role": "Doubles Support",
                 "movepool": ["High Horsepower", "Ice Shard", "Knock Off", "Rapid Spin", "Stone Edge"],
                 "teraTypes": ["Dragon", "Water"]
@@ -730,7 +745,7 @@
         ]
     },
     "blissey": {
-        "level": 84,
+        "level": 88,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -740,7 +755,7 @@
         ]
     },
     "tyranitar": {
-        "level": 80,
+        "level": 81,
         "sets": [
             {
                 "role": "Doubles Bulky Setup",
@@ -765,7 +780,7 @@
         ]
     },
     "gardevoir": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -790,7 +805,7 @@
         ]
     },
     "breloom": {
-        "level": 80,
+        "level": 81,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -800,7 +815,7 @@
         ]
     },
     "slaking": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -825,7 +840,7 @@
         ]
     },
     "sableye": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -850,7 +865,7 @@
         ]
     },
     "swalot": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -875,7 +890,7 @@
         ]
     },
     "torkoal": {
-        "level": 84,
+        "level": 85,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -885,7 +900,7 @@
         ]
     },
     "grumpig": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -895,7 +910,7 @@
         ]
     },
     "cacturne": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -905,11 +920,16 @@
         ]
     },
     "altaria": {
-        "level": 86,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Brave Bird", "Defog", "Draco Meteor", "Fire Blast", "Helping Hand", "Protect", "Roost", "Tailwind", "Will-O-Wisp"],
+                "movepool": ["Brave Bird", "Defog", "Draco Meteor", "Fire Blast", "Helping Hand", "Roost", "Tailwind", "Will-O-Wisp"],
+                "teraTypes": ["Steel"]
+            },
+            {
+                "role": "Bulky Protect",
+                "movepool": ["Brave Bird", "Protect", "Roost", "Will-O-Wisp"],
                 "teraTypes": ["Steel"]
             }
         ]
@@ -925,7 +945,7 @@
         ]
     },
     "seviper": {
-        "level": 88,
+        "level": 91,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -945,7 +965,7 @@
         ]
     },
     "banette": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -955,7 +975,7 @@
         ]
     },
     "tropius": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -985,7 +1005,7 @@
         ]
     },
     "salamence": {
-        "level": 82,
+        "level": 81,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -995,7 +1015,7 @@
         ]
     },
     "kyogre": {
-        "level": 72,
+        "level": 66,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -1005,7 +1025,7 @@
         ]
     },
     "groudon": {
-        "level": 74,
+        "level": 72,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -1020,7 +1040,7 @@
         ]
     },
     "rayquaza": {
-        "level": 72,
+        "level": 74,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -1045,12 +1065,12 @@
             {
                 "role": "Choice Item user",
                 "movepool": ["Brave Bird", "Close Combat", "Double-Edge", "Final Gambit"],
-                "teraTypes": ["Fighting", "Flying"]
+                "teraTypes": ["Fighting", "Flying", "Normal"]
             }
         ]
     },
     "kricketune": {
-        "level": 95,
+        "level": 98,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1070,7 +1090,7 @@
         ]
     },
     "vespiquen": {
-        "level": 94,
+        "level": 97,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1095,7 +1115,7 @@
             {
                 "role": "Doubles Wallbreaker",
                 "movepool": ["Aqua Jet", "Crunch", "Ice Spinner", "Protect", "Wave Crash"],
-                "teraTypes": ["Fire", "Steel", "Water"]
+                "teraTypes": ["Water"]
             }
         ]
     },
@@ -1150,7 +1170,7 @@
         ]
     },
     "bronzong": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1160,11 +1180,16 @@
         ]
     },
     "spiritomb": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Foul Play", "Helping Hand", "Icy Wind", "Shadow Sneak", "Snarl", "Trick Room", "Will-O-Wisp"],
+                "movepool": ["Foul Play", "Helping Hand", "Icy Wind", "Shadow Sneak", "Will-O-Wisp"],
+                "teraTypes": ["Steel"]
+            },
+            {
+                "role": "Doubles Bulky Attacker",
+                "movepool": ["Foul Play", "Snarl", "Trick Room", "Will-O-Wisp"],
                 "teraTypes": ["Steel"]
             }
         ]
@@ -1185,7 +1210,7 @@
         ]
     },
     "lucario": {
-        "level": 82,
+        "level": 84,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -1200,7 +1225,7 @@
         ]
     },
     "hippowdon": {
-        "level": 82,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1220,7 +1245,7 @@
         ]
     },
     "lumineon": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1230,7 +1255,7 @@
         ]
     },
     "abomasnow": {
-        "level": 88,
+        "level": 86,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -1250,7 +1275,7 @@
         ]
     },
     "sneasler": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -1270,7 +1295,7 @@
         ]
     },
     "leafeon": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -1280,7 +1305,7 @@
         ]
     },
     "glaceon": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -1305,7 +1330,7 @@
         ]
     },
     "froslass": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1315,7 +1340,7 @@
         ]
     },
     "rotom": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -1365,7 +1390,7 @@
         ]
     },
     "rotommow": {
-        "level": 84,
+        "level": 85,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -1375,11 +1400,11 @@
         ]
     },
     "uxie": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Encore", "Foul Play", "Helping Hand", "Psychic", "Stealth Rock", "Thunder Wave", "U-turn"],
+                "movepool": ["Encore", "Foul Play", "Helping Hand", "Mystical Power", "Stealth Rock", "Thunder Wave", "U-turn"],
                 "teraTypes": ["Dark", "Poison", "Steel"]
             }
         ]
@@ -1419,7 +1444,7 @@
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
-                "movepool": ["Draco Meteor", "Fire Blast", "Heavy Slam", "Protect", "Trick Room"],
+                "movepool": ["Draco Meteor", "Fire Blast", "Heavy Slam", "Protect", "Thunder Wave"],
                 "teraTypes": ["Dragon", "Fire", "Flying", "Steel"]
             }
         ]
@@ -1429,7 +1454,7 @@
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
-                "movepool": ["Draco Meteor", "Fire Blast", "Flash Cannon", "Protect", "Trick Room"],
+                "movepool": ["Draco Meteor", "Fire Blast", "Flash Cannon", "Protect", "Thunder Wave"],
                 "teraTypes": ["Dragon", "Fire", "Flying"]
             }
         ]
@@ -1460,7 +1485,7 @@
         ]
     },
     "heatran": {
-        "level": 80,
+        "level": 78,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -1530,7 +1555,7 @@
         ]
     },
     "arceusdark": {
-        "level": 72,
+        "level": 71,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -1550,7 +1575,7 @@
         ]
     },
     "arceuselectric": {
-        "level": 72,
+        "level": 71,
         "sets": [
             {
                 "role": "Doubles Bulky Setup",
@@ -1589,7 +1614,7 @@
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
-                "movepool": ["Extreme Speed", "Flare Blitz", "Liquidation", "Stomping Tantrum", "Swords Dance"],
+                "movepool": ["Extreme Speed", "Flare Blitz", "Liquidation", "Protect", "Swords Dance"],
                 "teraTypes": ["Fire", "Normal", "Water"]
             }
         ]
@@ -1680,7 +1705,7 @@
         ]
     },
     "arceussteel": {
-        "level": 72,
+        "level": 73,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1750,7 +1775,7 @@
         ]
     },
     "lilliganthisui": {
-        "level": 80,
+        "level": 82,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -1760,7 +1785,7 @@
         ]
     },
     "basculin": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -1770,7 +1795,7 @@
         ]
     },
     "basculinbluestriped": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -1780,7 +1805,7 @@
         ]
     },
     "basculegion": {
-        "level": 72,
+        "level": 71,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -1790,7 +1815,7 @@
         ]
     },
     "basculegionf": {
-        "level": 74,
+        "level": 73,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -1820,6 +1845,11 @@
                 "role": "Doubles Wallbreaker",
                 "movepool": ["Dark Pulse", "Flamethrower", "Focus Blast", "Protect", "Sludge Bomb"],
                 "teraTypes": ["Poison"]
+            },
+            {
+                "role": "Offensive Protect",
+                "movepool": ["Flamethrower", "Focus Blast", "Knock Off", "Protect", "Sludge Bomb"],
+                "teraTypes": ["Poison"]
             }
         ]
     },
@@ -1832,28 +1862,23 @@
             },
             {
                 "role": "Tera Blast user",
-                "movepool": ["Hyper Voice", "Protect", "Shadow Ball", "Tera Blast"],
+                "movepool": ["Bitter Malice", "Hyper Voice", "Protect", "Tera Blast"],
                 "teraTypes": ["Fairy"]
             }
         ]
     },
     "gothitelle": {
-        "level": 80,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Support",
                 "movepool": ["Fake Out", "Heal Pulse", "Helping Hand", "Protect", "Psychic", "Trick Room"],
                 "teraTypes": ["Dark", "Steel"]
-            },
-            {
-                "role": "Choice Item user",
-                "movepool": ["Heal Pulse", "Hypnosis", "Psychic", "Trick"],
-                "teraTypes": ["Dark", "Steel"]
             }
         ]
     },
     "sawsbuck": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -1863,7 +1888,7 @@
         ]
     },
     "amoonguss": {
-        "level": 80,
+        "level": 82,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1873,7 +1898,7 @@
         ]
     },
     "alomomola": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1893,7 +1918,7 @@
         ]
     },
     "haxorus": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -1903,7 +1928,7 @@
         ]
     },
     "beartic": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -1923,7 +1948,7 @@
         ]
     },
     "braviary": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -1933,7 +1958,7 @@
         ]
     },
     "braviaryhisui": {
-        "level": 80,
+        "level": 82,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -1963,7 +1988,7 @@
         ]
     },
     "volcarona": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -1978,7 +2003,7 @@
         ]
     },
     "tornadus": {
-        "level": 82,
+        "level": 80,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -1988,7 +2013,7 @@
         ]
     },
     "tornadustherian": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -2007,12 +2032,12 @@
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
-                "movepool": ["Grass Knot", "Nasty Plot", "Sludge Bomb", "Wildbolt Storm"],
+                "movepool": ["Grass Knot", "Nasty Plot", "Protect", "Wildbolt Storm"],
                 "teraTypes": ["Electric", "Grass"]
             },
             {
-                "role": "Doubles Support",
-                "movepool": ["Foul Play", "Protect", "Snarl", "Taunt", "Thunder Wave", "Thunderbolt"],
+                "role": "Bulky Protect",
+                "movepool": ["Grass Knot", "Protect", "Snarl", "Taunt", "Thunder Wave", "Thunderbolt"],
                 "teraTypes": ["Steel"]
             }
         ]
@@ -2048,7 +2073,7 @@
         ]
     },
     "landorustherian": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -2063,12 +2088,12 @@
         ]
     },
     "meloetta": {
-        "level": 86,
+        "level": 82,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
                 "movepool": ["Calm Mind", "Focus Blast", "Hyper Voice", "Protect", "Psychic", "U-turn"],
-                "teraTypes": ["Dark", "Normal", "Psychic"]
+                "teraTypes": ["Fighting", "Normal", "Psychic"]
             },
             {
                 "role": "Tera Blast user",
@@ -2078,27 +2103,27 @@
         ]
     },
     "chesnaught": {
-        "level": 84,
+        "level": 85,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
                 "movepool": ["Body Press", "Leech Seed", "Spiky Shield", "Wood Hammer"],
-                "teraTypes": ["Rock", "Steel"]
+                "teraTypes": ["Fire", "Rock", "Steel", "Water"]
             },
             {
                 "role": "Doubles Bulky Setup",
                 "movepool": ["Body Press", "Iron Defense", "Synthesis", "Wood Hammer"],
-                "teraTypes": ["Rock", "Steel"]
+                "teraTypes": ["Fire", "Rock", "Steel", "Water"]
             }
         ]
     },
     "delphox": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
                 "movepool": ["Fire Blast", "Heat Wave", "Nasty Plot", "Protect", "Psyshock"],
-                "teraTypes": ["Fire", "Psychic", "Steel", "Water"]
+                "teraTypes": ["Fire"]
             }
         ]
     },
@@ -2123,7 +2148,7 @@
         ]
     },
     "vivillon": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -2133,7 +2158,7 @@
         ]
     },
     "pyroar": {
-        "level": 88,
+        "level": 86,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -2148,7 +2173,7 @@
         ]
     },
     "florges": {
-        "level": 86,
+        "level": 85,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -2168,7 +2193,7 @@
         ]
     },
     "dragalge": {
-        "level": 84,
+        "level": 86,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -2178,7 +2203,7 @@
         ]
     },
     "clawitzer": {
-        "level": 86,
+        "level": 85,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -2193,7 +2218,7 @@
         ]
     },
     "sylveon": {
-        "level": 82,
+        "level": 80,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -2218,7 +2243,7 @@
         ]
     },
     "dedenne": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -2248,7 +2273,7 @@
         ]
     },
     "goodrahisui": {
-        "level": 86,
+        "level": 85,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -2258,22 +2283,17 @@
         ]
     },
     "klefki": {
-        "level": 84,
+        "level": 83,
         "sets": [
             {
-                "role": "Doubles Bulky Attacker",
-                "movepool": ["Dazzling Gleam", "Foul Play", "Spikes", "Thunder Wave"],
-                "teraTypes": ["Flying", "Water"]
-            },
-            {
                 "role": "Doubles Support",
-                "movepool": ["Dazzling Gleam", "Light Screen", "Reflect", "Thunder Wave"],
+                "movepool": ["Dazzling Gleam", "Foul Play", "Light Screen", "Reflect", "Spikes", "Thunder Wave"],
                 "teraTypes": ["Flying", "Water"]
             }
         ]
     },
     "avalugg": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -2308,7 +2328,7 @@
         ]
     },
     "diancie": {
-        "level": 84,
+        "level": 80,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -2348,7 +2368,7 @@
         ]
     },
     "volcanion": {
-        "level": 82,
+        "level": 78,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -2358,7 +2378,7 @@
         ]
     },
     "decidueye": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -2378,7 +2398,7 @@
         ]
     },
     "gumshoos": {
-        "level": 90,
+        "level": 91,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -2398,7 +2418,7 @@
         ]
     },
     "oricorio": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -2408,7 +2428,7 @@
         ]
     },
     "oricoriopompom": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -2418,7 +2438,7 @@
         ]
     },
     "oricoriopau": {
-        "level": 82,
+        "level": 85,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -2428,7 +2448,7 @@
         ]
     },
     "oricoriosensu": {
-        "level": 82,
+        "level": 84,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -2438,7 +2458,7 @@
         ]
     },
     "lycanroc": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -2448,7 +2468,7 @@
         ]
     },
     "lycanrocmidnight": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -2468,7 +2488,7 @@
         ]
     },
     "toxapex": {
-        "level": 88,
+        "level": 93,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -2478,7 +2498,7 @@
         ]
     },
     "mudsdale": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -2501,14 +2521,14 @@
         "level": 86,
         "sets": [
             {
-                "role": "Doubles Bulky Attacker",
-                "movepool": ["Encore", "Fake Out", "Fire Blast", "Incinerate", "Poison Gas", "Protect", "Sludge Bomb"],
+                "role": "Doubles Fast Attacker",
+                "movepool": ["Encore", "Fake Out", "Fire Blast", "Heat Wave", "Incinerate", "Poison Gas", "Protect", "Sludge Bomb"],
                 "teraTypes": ["Fire", "Flying", "Water"]
             }
         ]
     },
     "tsareena": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -2518,7 +2538,7 @@
         ]
     },
     "oranguru": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -2528,7 +2548,7 @@
         ]
     },
     "passimian": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -2563,7 +2583,7 @@
         ]
     },
     "mimikyu": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -2623,7 +2643,7 @@
         ]
     },
     "inteleon": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -2633,7 +2653,7 @@
         ]
     },
     "greedent": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Bulky Setup",
@@ -2653,7 +2673,7 @@
         ]
     },
     "drednaw": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -2663,17 +2683,17 @@
         ]
     },
     "coalossal": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
-                "movepool": ["Fire Blast", "Heat Wave", "Incinerate", "Protect", "Stealth Rock", "Stone Edge", "Will-O-Wisp"],
+                "movepool": ["Fire Blast", "Heat Wave", "Incinerate", "Protect", "Rapid Spin", "Stealth Rock", "Stone Edge", "Will-O-Wisp"],
                 "teraTypes": ["Water"]
             }
         ]
     },
     "flapple": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -2683,7 +2703,7 @@
         ]
     },
     "appletun": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -2693,7 +2713,7 @@
         ]
     },
     "sandaconda": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Bulky Setup",
@@ -2708,7 +2728,7 @@
         ]
     },
     "barraskewda": {
-        "level": 82,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -2738,7 +2758,7 @@
         ]
     },
     "polteageist": {
-        "level": 82,
+        "level": 84,
         "sets": [
             {
                 "role": "Tera Blast user",
@@ -2803,7 +2823,7 @@
         ]
     },
     "pincurchin": {
-        "level": 94,
+        "level": 97,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -2823,7 +2843,7 @@
         ]
     },
     "stonjourner": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -2853,7 +2873,7 @@
         ]
     },
     "indeedeef": {
-        "level": 84,
+        "level": 86,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -2873,7 +2893,7 @@
         ]
     },
     "dragapult": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -2898,7 +2918,7 @@
         ]
     },
     "zaciancrowned": {
-        "level": 68,
+        "level": 67,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -2998,7 +3018,7 @@
         ]
     },
     "regidrago": {
-        "level": 78,
+        "level": 75,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -3008,11 +3028,11 @@
         ]
     },
     "glastrier": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
-                "movepool": ["Close Combat", "Icicle Crash", "Protect", "Stomping Tantrum"],
+                "movepool": ["Close Combat", "Heavy Slam", "Icicle Crash", "Protect", "Stomping Tantrum"],
                 "teraTypes": ["Fighting", "Steel"]
             }
         ]
@@ -3033,7 +3053,7 @@
         ]
     },
     "calyrex": {
-        "level": 90,
+        "level": 91,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -3043,7 +3063,7 @@
         ]
     },
     "calyrexice": {
-        "level": 74,
+        "level": 68,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -3053,7 +3073,7 @@
         ]
     },
     "calyrexshadow": {
-        "level": 66,
+        "level": 64,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -3063,7 +3083,7 @@
         ]
     },
     "wyrdeer": {
-        "level": 88,
+        "level": 86,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3073,7 +3093,7 @@
         ]
     },
     "kleavor": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -3093,7 +3113,7 @@
         ]
     },
     "enamorus": {
-        "level": 82,
+        "level": 81,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -3108,7 +3128,7 @@
         ]
     },
     "enamorustherian": {
-        "level": 84,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3118,7 +3138,7 @@
         ]
     },
     "meowscarada": {
-        "level": 82,
+        "level": 81,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -3153,7 +3173,7 @@
         ]
     },
     "oinkologne": {
-        "level": 88,
+        "level": 90,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -3163,7 +3183,7 @@
         ]
     },
     "oinkolognef": {
-        "level": 88,
+        "level": 92,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -3173,7 +3193,7 @@
         ]
     },
     "dudunsparce": {
-        "level": 88,
+        "level": 86,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -3183,7 +3203,7 @@
         ]
     },
     "dudunsparcethreesegment": {
-        "level": 88,
+        "level": 86,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -3193,17 +3213,17 @@
         ]
     },
     "spidops": {
-        "level": 95,
+        "level": 100,
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Circle Throw", "Sticky Web", "String Shot", "Taunt", "U-turn"],
+                "movepool": ["Bug Bite", "Circle Throw", "Sticky Web", "String Shot", "U-turn"],
                 "teraTypes": ["Water"]
             }
         ]
     },
     "lokix": {
-        "level": 82,
+        "level": 84,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -3228,7 +3248,7 @@
         ]
     },
     "houndstone": {
-        "level": 78,
+        "level": 76,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -3242,7 +3262,7 @@
         "sets": [
             {
                 "role": "Offensive Protect",
-                "movepool": ["Dazzling Gleam", "Lumina Crash", "Protect", "Shadow Ball"],
+                "movepool": ["Baton Pass", "Dazzling Gleam", "Lumina Crash", "Protect", "Shadow Ball"],
                 "teraTypes": ["Fairy"]
             }
         ]
@@ -3263,7 +3283,7 @@
         ]
     },
     "wugtrio": {
-        "level": 88,
+        "level": 89,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -3273,7 +3293,7 @@
         ]
     },
     "dondozo": {
-        "level": 84,
+        "level": 85,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3323,7 +3343,7 @@
         ]
     },
     "bellibolt": {
-        "level": 88,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3333,7 +3353,7 @@
         ]
     },
     "revavroom": {
-        "level": 82,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3367,7 +3387,7 @@
             },
             {
                 "role": "Doubles Support",
-                "movepool": ["Encore", "Follow Me", "Helping Hand", "Protect", "Super Fang", "Taunt", "Thunder Wave", "U-turn"],
+                "movepool": ["Encore", "Follow Me", "Helping Hand", "Population Bomb", "Protect", "Taunt", "Thunder Wave", "U-turn"],
                 "teraTypes": ["Ghost"]
             }
         ]
@@ -3382,13 +3402,13 @@
             },
             {
                 "role": "Doubles Support",
-                "movepool": ["Encore", "Follow Me", "Helping Hand", "Protect", "Super Fang", "Taunt", "Thunder Wave", "U-turn"],
+                "movepool": ["Encore", "Follow Me", "Helping Hand", "Population Bomb", "Protect", "Taunt", "Thunder Wave", "U-turn"],
                 "teraTypes": ["Ghost"]
             }
         ]
     },
     "cetitan": {
-        "level": 88,
+        "level": 85,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",
@@ -3398,7 +3418,7 @@
         ]
     },
     "baxcalibur": {
-        "level": 81,
+        "level": 79,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -3413,7 +3433,7 @@
         ]
     },
     "tatsugiri": {
-        "level": 88,
+        "level": 86,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3443,7 +3463,7 @@
             {
                 "role": "Doubles Fast Attacker",
                 "movepool": ["Double-Edge", "Draco Meteor", "Knock Off", "Shed Tail"],
-                "teraTypes": ["Dark", "Dragon", "Normal", "Poison"]
+                "teraTypes": ["Dragon", "Fire", "Normal", "Poison"]
             }
         ]
     },
@@ -3463,7 +3483,7 @@
         ]
     },
     "kilowattrel": {
-        "level": 84,
+        "level": 83,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -3473,7 +3493,7 @@
         ]
     },
     "bombirdier": {
-        "level": 86,
+        "level": 85,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -3542,7 +3562,7 @@
         "sets": [
             {
                 "role": "Offensive Protect",
-                "movepool": ["Crabhammer", "High Horsepower", "Knock Off", "Protect", "Rock Slide", "Substitute"],
+                "movepool": ["Crabhammer", "High Horsepower", "Knock Off", "Protect", "Rock Slide"],
                 "teraTypes": ["Dark", "Ground", "Water"]
             },
             {
@@ -3573,7 +3593,7 @@
         ]
     },
     "grafaiai": {
-        "level": 86,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3601,7 +3621,7 @@
         "level": 86,
         "sets": [
             {
-                "role": "Choice Item user",
+                "role": "Doubles Wallbreaker",
                 "movepool": ["Crunch", "Fire Fang", "Play Rough", "Psychic Fangs", "Wild Charge"],
                 "teraTypes": ["Fairy"]
             }
@@ -3623,7 +3643,7 @@
         ]
     },
     "gholdengo": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -3638,17 +3658,17 @@
         ]
     },
     "greattusk": {
-        "level": 80,
+        "level": 81,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
-                "movepool": ["Close Combat", "Earthquake", "Headlong Rush", "Ice Spinner", "Knock Off", "Rapid Spin", "Stone Edge"],
+                "movepool": ["Close Combat", "Earthquake", "Headlong Rush", "Ice Spinner", "Knock Off", "Protect", "Rapid Spin", "Rock Slide"],
                 "teraTypes": ["Fire", "Ground"]
             }
         ]
     },
     "brutebonnet": {
-        "level": 82,
+        "level": 80,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3677,13 +3697,13 @@
         "sets": [
             {
                 "role": "Doubles Support",
-                "movepool": ["Dazzling Gleam", "Disable", "Encore", "Helping Hand", "Howl", "Play Rough", "Stealth Rock", "Thunder Wave"],
+                "movepool": ["Disable", "Encore", "Helping Hand", "Howl", "Play Rough", "Stealth Rock", "Thunder Wave"],
                 "teraTypes": ["Steel"]
             }
         ]
     },
     "fluttermane": {
-        "level": 78,
+        "level": 75,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -3708,7 +3728,7 @@
         ]
     },
     "roaringmoon": {
-        "level": 80,
+        "level": 78,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -3718,7 +3738,7 @@
         ]
     },
     "irontreads": {
-        "level": 82,
+        "level": 81,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3728,7 +3748,7 @@
         ]
     },
     "ironmoth": {
-        "level": 82,
+        "level": 80,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -3743,7 +3763,7 @@
         ]
     },
     "ironhands": {
-        "level": 80,
+        "level": 78,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3758,7 +3778,7 @@
         ]
     },
     "ironjugulis": {
-        "level": 84,
+        "level": 81,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -3768,7 +3788,7 @@
         ]
     },
     "ironthorns": {
-        "level": 86,
+        "level": 84,
         "sets": [
             {
                 "role": "Doubles Bulky Attacker",
@@ -3783,7 +3803,7 @@
         ]
     },
     "ironbundle": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Doubles Fast Attacker",
@@ -3793,7 +3813,7 @@
         ]
     },
     "ironvaliant": {
-        "level": 82,
+        "level": 81,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -3813,7 +3833,7 @@
         ]
     },
     "chienpao": {
-        "level": 80,
+        "level": 78,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -3823,7 +3843,7 @@
         ]
     },
     "wochien": {
-        "level": 82,
+        "level": 84,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -3833,7 +3853,7 @@
         ]
     },
     "chiyu": {
-        "level": 80,
+        "level": 77,
         "sets": [
             {
                 "role": "Doubles Setup Sweeper",
@@ -3848,7 +3868,7 @@
         ]
     },
     "koraidon": {
-        "level": 70,
+        "level": 68,
         "sets": [
             {
                 "role": "Choice Item user",
@@ -3858,7 +3878,7 @@
         ]
     },
     "miraidon": {
-        "level": 68,
+        "level": 66,
         "sets": [
             {
                 "role": "Offensive Protect",
@@ -3908,7 +3928,7 @@
         ]
     },
     "toedscruel": {
-        "level": 88,
+        "level": 87,
         "sets": [
             {
                 "role": "Doubles Support",
@@ -3918,7 +3938,7 @@
         ]
     },
     "kingambit": {
-        "level": 80,
+        "level": 79,
         "sets": [
             {
                 "role": "Bulky Protect",
@@ -3933,7 +3953,7 @@
         ]
     },
     "walkingwake": {
-        "level": 80,
+        "level": 78,
         "sets": [
             {
                 "role": "Doubles Wallbreaker",

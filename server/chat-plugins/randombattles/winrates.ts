@@ -90,6 +90,12 @@ function getSpeciesName(set: PokemonSet, format: Format) {
 		return 'Dudunsparce';
 	} else if (species === "Maushold-Four") {
 		return 'Maushold';
+	} else if (species === "Greninja-Bond") {
+		return 'Greninja';
+	} else if (species === "Keldeo-Resolute") {
+		return 'Keldeo';
+	} else if (species === "Zarude-Dada") {
+		return 'Zarude';
 	} else if (species === "Squawkabilly-Blue") {
 		return "Squawkabilly";
 	} else if (species === "Squawkabilly-White") {
@@ -120,7 +126,7 @@ function getSpeciesName(set: PokemonSet, format: Format) {
 		return "Groudon-Primal";
 	} else if (item.megaStone) {
 		return item.megaStone;
-	} else if (species === "Rayquaza" && moves.includes('Dragon Ascent') && megaRayquazaPossible) {
+	} else if (species === "Rayquaza" && moves.includes('Dragon Ascent') && !item.zMove && megaRayquazaPossible) {
 		return "Rayquaza-Mega";
 	} else {
 		return species;
@@ -153,7 +159,8 @@ async function collectStats(battle: RoomBattle, winner: ID, players: ID[]) {
 	if (format.mod !== `gen${Dex.gen}`) {
 		eloFloor = 1300;
 	} else if (format.gameType === 'doubles') {
-		eloFloor = 1400;
+		// may need to be raised again if doubles ladder takes off
+		eloFloor = 1300;
 	}
 	if (!formatData || battle.rated < eloFloor) return;
 	checkRollover();
@@ -175,7 +182,7 @@ async function collectStats(battle: RoomBattle, winner: ID, players: ID[]) {
 export const commands: Chat.ChatCommands = {
 	rwr: 'randswinrates',
 	randswinrates(target, room, user) {
-		return this.parse(`/j view-winrates-${toID(target) || `gen${Dex.gen}randombattle`}`);
+		return this.parse(`/j view-winrates-${target ? Dex.formats.get(target).id : `gen${Dex.gen}randombattle`}`);
 	},
 	randswinrateshelp: [
 		'/randswinrates OR /rwr [format] - Get a list of the win rates for all Pokemon in the given Random Battles format.',
