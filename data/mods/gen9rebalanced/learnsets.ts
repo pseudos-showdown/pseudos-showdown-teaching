@@ -3885,6 +3885,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandslash: {
 		learnset: {
+			knockoff: ["9M"],
 			aerialace: ["9M", "7M", "6M", "5M", "4M", "3M"],
 			agility: ["9M", "8M"],
 			amnesia: ["9M", "8M"],
@@ -3925,7 +3926,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			honeclaws: ["6M", "5M"],
 			hyperbeam: ["9M", "8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			irontail: ["9M", "8M", "8V", "7T", "7V", "6T", "5T", "4M", "3M"],
-			knockoff: ["7T", "6T", "5T", "4T"],
+			//knockoff: ["7T", "6T", "5T", "4T"],
 			leechlife: ["9M", "8M"],
 			magnitude: ["7L14", "6L14", "5L17"],
 			mimic: ["9M", "7V", "3T"],
@@ -3988,6 +3989,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandslashalola: {
 		learnset: {
+			knockoff: ["9M"],
 			aerialace: ["9M", "7M"],
 			agility: ["9M", "8M"],
 			amnesia: ["9M", "8M"],
@@ -4033,7 +4035,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			irondefense: ["9M", "8M", "8L1", "7T"],
 			ironhead: ["9M", "8M", "8L1", "7T"],
 			irontail: ["9M", "8M", "8V", "7T"],
-			knockoff: ["7T"],
+			//knockoff: ["7T"],
 			leechlife: ["9M", "8M", "7M"],
 			metalburst: ["9M", "8L1", "7L1"],
 			metalclaw: ["9M", "8L1", "7L1"],
@@ -45394,6 +45396,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			metronome: ["9M", "8M", "3T"],
 			mimic: ["3T"],
 			moonblast: ["9M", "6S17"],
+			moonlight: ["9M"],
 			mudslap: ["9M", "4T", "3T"],
 			naturalgift: ["4M"],
 			nightmare: ["3T"],
@@ -45441,7 +45444,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["9M", "7T", "6T", "4M", "3M"],
 			wish: ["9L1", "8L1", "8S23", "7L1", "7S22", "6L1", "6S17", "6S18", "6S19", "6S20", "6S21", "5L1", "5S14", "5S15", "5S16", "4L1", "4S11", "4S12", "3L1", "3S0", "3S1", "3S2", "3S3", "3S4", "3S5", "3S6", "3S7", "3S8", "3S9"],
 			zenheadbutt: ["9M", "9L28", "8M", "8L28", "7T", "7L35", "6T", "6L35", "5T", "5L35", "4T", "4L35"],
-			moonlight: ["8M"],
 		},
 		eventData: [
 			{generation: 3, level: 5, moves: ["wish", "confusion", "rest"], pokeball: "pokeball"},
