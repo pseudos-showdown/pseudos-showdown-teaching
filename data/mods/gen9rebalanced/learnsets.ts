@@ -88569,7 +88569,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	bramblin: {
 		learnset: {
 			toxic: ["9M"],
-			// poltergeist: ["9M"],
+			poltergeist: ["9M"],
 			absorb: ["9L5"],
 			astonish: ["9L1"],
 			beatup: ["9E"],
@@ -88615,6 +88615,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	brambleghast: {
 		learnset: {
+			poltergeist: ["9M"],
 			absorb: ["9L5"],
 			astonish: ["9L1"],
 			bulletseed: ["9M", "9L13"],
@@ -91170,18 +91171,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ogerpon: {
 		learnset: {
-			scald: ["9M"],
-			wavecrash: ["9M"],
-			hydropump: ["9M"],
-			surf: ["9M"],
-			fireblast: ["9M"],
-			flareblitz: ["9M"],
-			flamethrower: ["9M"],
-			burningjealousy: ["9M"],
-			headsmash: ["9M"],
-			stoneedge: ["9M"],
-			rockslide: ["9M"],
-			stealthrock: ["9M"],
 			brickbreak: ["9M"],
 			bulletseed: ["9M"],
 			charm: ["9M"],
