@@ -205,7 +205,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen9rebalanced',
 		ruleset: ['[Gen 9] Rebalanced OU'],
-		banlist: ['OU', 'UUBL', 'Light Clay'],
+		banlist: ['OU', 'UUBL'],
 	},
 
 	{
