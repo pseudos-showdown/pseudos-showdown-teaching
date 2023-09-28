@@ -46,6 +46,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	bloodmoon: {
+		num: 901,
+		accuracy: 100,
+		basePower: 140,
+		category: "Special",
+		name: "Blood Moon",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, cantusetwice: 1},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+	},
 	absorb: {
 		num: 71,
 		accuracy: 100,
@@ -3377,7 +3390,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 80,
 		basePower: 0,
 		category: "Status",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Dark Void",
 		pp: 10,
 		priority: 0,
@@ -3887,7 +3900,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 140,
 		category: "Special",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Doom Desire",
 		pp: 5,
 		priority: 0,
@@ -3991,7 +4004,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	doubleshock: {
 		num: 892,
 		accuracy: 100,
-		basePower: 120,
+		basePower: 140,
 		category: "Physical",
 		name: "Double Shock",
 		pp: 5,
@@ -4175,7 +4188,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Dragon Hammer",
 		pp: 15,
 		priority: 0,
@@ -4361,7 +4373,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	dualwingbeat: {
 		num: 814,
 		accuracy: 90,
-		basePower: 40,
+		basePower: 50,
 		category: "Physical",
 		name: "Dual Wingbeat",
 		pp: 10,
@@ -9919,6 +9931,32 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Steel",
 		contestType: "Cool",
 	},
+	ivycudgel: {
+		num: 904,
+		accuracy: 90,
+		basePower: 100,
+		category: "Physical",
+		name: "Ivy Cudgel",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onModifyType(move, pokemon) {
+			switch (pokemon.species.name) {
+			case 'Ogerpon-Wellspring': case 'Ogerpon-Wellspring-Tera':
+				move.type = 'Water';
+				break;
+			case 'Ogerpon-Hearthflame': case 'Ogerpon-Hearthflame-Tera':
+				move.type = 'Fire';
+				break;
+			case 'Ogerpon-Cornerstone': case 'Ogerpon-Cornerstone-Tera':
+				move.type = 'Rock';
+				break;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Grass",
+	},
 	jawlock: {
 		num: 746,
 		accuracy: 100,
@@ -13621,7 +13659,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Plasma Fists",
 		pp: 15,
 		priority: 0,
@@ -14605,7 +14643,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return move.basePower;
 		},
 		category: "Physical",
-		isNonstandard: "Past",
+		//isNonstandard: "Past",
 		name: "Pursuit",
 		pp: 20,
 		priority: 0,
@@ -14818,7 +14856,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 100,
 		basePower: 50,
 		basePowerCallback(pokemon) {
-			return Math.min(170, 50 + 20 * pokemon.timesAttacked);
+			return Math.min(170, 50 + 30 * pokemon.timesAttacked);
 		},
 		category: "Physical",
 		name: "Rage Fist",
@@ -16045,7 +16083,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	scald: {
 		num: 503,
 		accuracy: 100,
-		basePower: 80,
+		basePower: 70,
 		category: "Special",
 		name: "Scald",
 		pp: 15,
@@ -16266,7 +16304,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 85,
 		basePower: 120,
 		category: "Special",
-		isNonstandard: "Past",
 		name: "Seed Flare",
 		pp: 5,
 		priority: 0,
@@ -19208,7 +19245,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		isNonstandard: "Past",
 		name: "Tail Glow",
 		pp: 20,
 		priority: 0,
@@ -20795,7 +20831,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 	volttackle: {
 		num: 344,
 		accuracy: 100,
-		basePower: 140,
+		basePower: 150,
 		category: "Physical",
 		name: "Volt Tackle",
 		pp: 15,
@@ -21605,5 +21641,39 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Electric",
 		contestType: "Cool",
+	},
+	thunderclap: {
+		num: -1000,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Thunderclap",
+		pp: 5,
+		priority: 1,
+		flags: {protect: 1, mirror: 1, sound: 1, bypasssub: 1},
+		onTry(source, target) {
+			const action = this.queue.willMove(target);
+			const move = action?.choice === 'move' ? action.move : null;
+			if (!move || (move.category === 'Status' && move.id !== 'mefirst') || target.volatiles['mustrecharge']) {
+				return false;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Electric",
+		contestType: "Clever",
+	},
+	tachyoncutter: {
+		num: 793,
+		accuracy: true,
+		basePower: 100,
+		category: "Special",
+		name: "Tachyon Cutter",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
 	},
 };

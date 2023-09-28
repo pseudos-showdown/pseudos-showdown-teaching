@@ -1014,7 +1014,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifySpA(atk, attacker, defender, move) {
 			if (move.type === 'Dragon') {
 				this.debug('Dragon\'s Maw boost');
-				return this.chainModify(1.3);
+				return this.chainModify(1.5);
 			}
 		},
 		name: "Dragon's Maw",
@@ -5242,5 +5242,105 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		// implemented in the corresponding move
 		rating: 3,
 		num: -4,
+	},
+	embodyaspectcornerstone: {
+		onStart(pokemon) {
+			this.boost({def: 1}, pokemon);
+		},
+		name: "Embody Aspect (Cornerstone)",
+		rating: 3.5,
+		num: 304,
+	},
+	embodyaspecthearthflame: {
+		onStart(pokemon) {
+			this.boost({atk: 1}, pokemon);
+		},
+		name: "Embody Aspect (Hearthflame)",
+		rating: 3.5,
+		num: 303,
+	},
+	embodyaspectteal: {
+		onStart(pokemon) {
+			this.boost({spe: 1}, pokemon);
+		},
+		name: "Embody Aspect (Teal)",
+		rating: 3.5,
+		num: 301,
+	},
+	embodyaspectwellspring: {
+		onStart(pokemon) {
+			this.boost({spd: 1}, pokemon);
+		},
+		name: "Embody Aspect (Wellspring)",
+		rating: 3.5,
+		num: 302,
+	},
+	hospitality: {
+		onStart(pokemon) {
+			for (const ally of pokemon.adjacentAllies()) {
+				if (this.heal(ally.baseMaxhp / 4)) {
+					this.add('-activate', ally, 'ability: Hospitality', '[of] ' + pokemon);
+				}
+			}
+		},
+		name: "Hospitality",
+		rating: 0,
+		num: 299,
+	},
+	mindseye: {
+		onTryBoost(boost, target, source, effect) {
+			if (source && target === source) return;
+			if (boost.accuracy && boost.accuracy < 0) {
+				delete boost.accuracy;
+				if (!(effect as ActiveMove).secondaries) {
+					this.add("-fail", target, "unboost", "accuracy", "[from] ability: Mind's Eye", "[of] " + target);
+				}
+			}
+		},
+		onModifyMovePriority: -5,
+		onModifyMove(move) {
+			move.ignoreEvasion = true;
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Fighting'] = true;
+				move.ignoreImmunity['Normal'] = true;
+			}
+		},
+		name: "Mind's Eye",
+		rating: 0,
+		num: 300,
+	},
+	supersweetsyrup: {
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Supersweet Syrup');
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Supersweet Syrup', 'boost');
+					activated = true;
+				}
+				if (target.volatiles['substitute']) {
+					this.add('-immune', target);
+				} else {
+					this.boost({evasion: -1}, target, pokemon, null, true);
+				}
+			}
+		},
+		name: "Supersweet Syrup",
+		rating: 1.5,
+		num: 306,
+	},
+	toxicchain: {
+		onSourceDamagingHit(damage, target, source, move) {
+			// Despite not being a secondary, Shield Dust / Covert Cloak block Toxic Chain's effect
+			if (target.hasAbility('shielddust') || target.hasItem('covertcloak')) return;
+
+			if (this.randomChance(3, 10)) {
+				target.trySetStatus('tox', source);
+			}
+		},
+		name: "Toxic Chain",
+		rating: 4.5,
+		num: 305,
 	},
 };
